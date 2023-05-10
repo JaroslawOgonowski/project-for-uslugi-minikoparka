@@ -13,7 +13,7 @@ export const Wrapper = styled.header`
 `;
 
 export const LeftBox = styled.div`
-  margin-left: 5%;
+  margin-left: 2%;
   display: flex;
   gap: 12px;
   align-self: flex-end;

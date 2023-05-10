@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled, { css } from "styled-components";
 
 export const BurgerButton = styled.button`
   cursor: pointer;
@@ -30,6 +30,11 @@ export const BurgerDiv = styled.div`
   padding: 0;
   z-index: 10;
   
+  ${({ open }) => open && css`
+
+  `
+  }
+  
   &:focus {
     outline: none;
   }
@@ -41,4 +46,18 @@ export const BurgerSpan = styled.span`
   background: black;
   transition: all 0.3s linear;
   position: relative;
+
+  
+  :first-child {
+      transform: ${({ open }) => open ? 'translateY(10px) rotate(-45deg);' : 'rotate(0)'}
+    }
+
+    :nth-child(2) {
+      opacity: ${({ open }) => open ? '0' : '1'};
+      transform: ${({ open }) => open ? 'translateX(20px)' : 'translateX(0)'};
+    }
+
+    :nth-child(3) {
+      transform: ${({ open }) => open ? 'translateY(-10px) rotate(45deg)' : 'rotate(0)'};
+    }
 `;
