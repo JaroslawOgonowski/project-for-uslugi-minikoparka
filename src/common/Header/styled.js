@@ -34,7 +34,7 @@ export const Owner = styled.div`
   align-items: center;
 `;
 
-export const PhoneLink = styled.a`
+export const StyledLink = styled.a`
   text-decoration: none;
   display: flex;
   align-content: center;
@@ -73,6 +73,7 @@ export const SpanBlackText = styled.span`
 `;
 
 export const SpanOrangeText = styled.span`
+  margin-left: 4px;
   font-family: 'Black Ops One', cursive;
   align-self: flex-end;
   font-size: 36px;

@@ -5,6 +5,8 @@ export const BurgerMenu = () => {
   <BurgerButton>
     <BurgerDiv>
      <BurgerSpan/>
+     <BurgerSpan/>
+     <BurgerSpan/>
     </BurgerDiv>
   </BurgerButton>
   );
