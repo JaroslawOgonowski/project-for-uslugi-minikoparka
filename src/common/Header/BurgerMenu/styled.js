@@ -1,6 +1,9 @@
-import styled, { css } from "styled-components";
+import styled from "styled-components";
 
 export const BurgerButton = styled.button`
+  position: absolute;
+  top: 10px;
+  left: 10px;
   cursor: pointer;
   width: 40px;
   height: 40px;
@@ -30,11 +33,6 @@ export const BurgerDiv = styled.div`
   padding: 0;
   z-index: 10;
   
-  ${({ open }) => open && css`
-
-  `
-  }
-  
   &:focus {
     outline: none;
   }
@@ -60,4 +58,19 @@ export const BurgerSpan = styled.span`
     :nth-child(3) {
       transform: ${({ open }) => open ? 'translateY(-10px) rotate(45deg)' : 'rotate(0)'};
     }
+`;
+
+export const NavList = styled.nav`
+padding-top: 60px;
+margin-top: -50px;
+transition: 0.5s linear;
+background-color: white;
+color: black;
+width: 25%;
+height: 76.5vh;
+transform: ${({ open }) => open ? `translateX(0)` : `translateX(-100%)`};
+`;
+
+export const Item = styled.li`
+
 `;

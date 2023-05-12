@@ -1,12 +1,12 @@
 import { Border, LeftBox, Logo, Owner, Phone, StyledLink, SpanBlackText, SpanOrangeText, SpanScribe, Title, Wrapper } from "./styled";
 import koparka from "./images/Koparka.png"
 import phone from "./images/phone.jpg"
-import { BurgerMenu } from "./BurgerMenu";
 export const Header = () => {
+
   return (
+    <>
     <Wrapper>
-      <LeftBox>
-        <BurgerMenu />
+      <LeftBox>        
         <Owner>
           <Logo src={koparka} />
           Radosław Urbaniak
@@ -25,7 +25,7 @@ export const Header = () => {
           <SpanOrangeText>koparką</SpanOrangeText>
         </StyledLink>
       </Title>
-
     </Wrapper>
+    </>
   );
 };

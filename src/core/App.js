@@ -1,4 +1,5 @@
 import { Header } from "../common/Header";
+import { BurgerMenu } from "../common/Header/BurgerMenu";
 import { GlobalStyle } from "./GlobalStyle";
 
 function App() {
@@ -6,6 +7,7 @@ function App() {
     <>
       <GlobalStyle />
       <Header />
+      <BurgerMenu/>
     </>
   );
 }
