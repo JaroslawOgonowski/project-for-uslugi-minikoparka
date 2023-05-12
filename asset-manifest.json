@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.js": "/project-for-uslugi-minikoparka/static/js/main.c7fd16bb.js",
+    "main.js": "/project-for-uslugi-minikoparka/static/js/main.75155afb.js",
     "static/js/787.07473dc0.chunk.js": "/project-for-uslugi-minikoparka/static/js/787.07473dc0.chunk.js",
     "static/media/Koparka.png": "/project-for-uslugi-minikoparka/static/media/Koparka.03ab24726ab1618a702d.png",
     "index.html": "/project-for-uslugi-minikoparka/index.html",
-    "main.c7fd16bb.js.map": "/project-for-uslugi-minikoparka/static/js/main.c7fd16bb.js.map",
+    "main.75155afb.js.map": "/project-for-uslugi-minikoparka/static/js/main.75155afb.js.map",
     "787.07473dc0.chunk.js.map": "/project-for-uslugi-minikoparka/static/js/787.07473dc0.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.c7fd16bb.js"
+    "static/js/main.75155afb.js"
   ]
 }
