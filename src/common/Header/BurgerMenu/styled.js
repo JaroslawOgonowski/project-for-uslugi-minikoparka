@@ -11,7 +11,7 @@ export const BurgerButton = styled.button`
   margin: 0 0 10px 0;
   text-decoration: none;
   position: relative;
-  border: 3px solid rgba(252,156,0,1);;
+  border: 3px solid rgba(252,156,0,1);
   border-radius: 5px;
   align-self: center;
   display: flex;
@@ -61,16 +61,40 @@ export const BurgerSpan = styled.span`
 `;
 
 export const NavList = styled.nav`
-padding-top: 60px;
-margin-top: -50px;
-transition: 0.5s linear;
-background-color: white;
-color: black;
-width: 25%;
-height: 76.5vh;
-transform: ${({ open }) => open ? `translateX(0)` : `translateX(-100%)`};
+  padding-top: 60px;
+  margin-top: -50px;
+  transition: 0.3s linear;
+  background-color: #ede6e6;
+  color: black;
+  width: 20%;
+  height: 76.5vh;
+  transform: ${({ open }) => open ? `translateX(0)` : `translateX(-100%)`};
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  list-style: none;
 `;
 
 export const Item = styled.li`
+  cursor: pointer;
+  width: 100%;
+  font-family: 'Saira', sans-serif;
+  font-size: 30px;
+  padding: 10px 0;
 
+  &:hover{
+    background-color: rgba(252,156,0,1);
+  };
 `;
+
+export const Label = styled.div`
+  width: calc(100% - 16px);
+  padding-left: 16px;
+  transition: 0.5s;
+
+  &:hover{
+    width: calc(100% - 50px);
+    padding-left: 50px;
+  };
+`

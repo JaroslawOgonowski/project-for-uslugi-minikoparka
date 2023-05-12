@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { BurgerButton, BurgerDiv, BurgerSpan, Item, NavList, StyledNavigation } from "./styled"
+import { BurgerButton, BurgerDiv, BurgerSpan, Item, Label, NavList, StyledNavigation } from "./styled"
 
 export const BurgerMenu = () => {
 
@@ -7,10 +7,7 @@ export const BurgerMenu = () => {
 
   return (
     <>
-
-
       <nav >
-
         <BurgerButton >
           <BurgerDiv open={open} onClick={() => setOpen(!open)}>
             <BurgerSpan open={open} />
@@ -20,11 +17,12 @@ export const BurgerMenu = () => {
         </BurgerButton>
 
         <NavList open={open}>
-          <Item>O Nas</Item>
-          <Item>Placeholder</Item>
-          <Item>Placeholder</Item>
-          <Item>Placeholder</Item>
-          <Item>Kontakt</Item>
+          <Item><Label>O Nas</Label></Item>
+          <Item><Label>Usługi</Label></Item>
+          <Item><Label>Minikoparka</Label></Item>
+          <Item><Label>Realizacje</Label></Item>
+          <Item><Label>Lokalizacja</Label></Item>
+          <Item><Label>Kontakt</Label></Item>
         </NavList>
       </nav>
     </>
