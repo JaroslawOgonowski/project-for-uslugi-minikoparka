@@ -47,16 +47,16 @@ export const BurgerSpan = styled.span`
 
   
   :first-child {
-      transform: ${({ open }) => open ? 'translateY(10px) rotate(-45deg);' : 'rotate(0)'}
+    transform: ${({ open }) => open ? 'translateY(10px) rotate(-45deg);' : 'rotate(0)'}
     }
 
-    :nth-child(2) {
-      opacity: ${({ open }) => open ? '0' : '1'};
-      transform: ${({ open }) => open ? 'translateX(20px)' : 'translateX(0)'};
+  :nth-child(2) {
+    opacity: ${({ open }) => open ? '0' : '1'};
+    transform: ${({ open }) => open ? 'translateX(20px)' : 'translateX(0)'};
     }
 
-    :nth-child(3) {
-      transform: ${({ open }) => open ? 'translateY(-10px) rotate(45deg)' : 'rotate(0)'};
+  :nth-child(3) {
+    transform: ${({ open }) => open ? 'translateY(-10px) rotate(45deg)' : 'rotate(0)'};
     }
 `;
 
@@ -67,7 +67,7 @@ export const NavList = styled.nav`
   background-color: #ede6e6;
   color: black;
   width: 280px;
-  height: 76.5vh;
+  height: 100%;
   transform: ${({ open }) => open ? `translateX(0)` : `translateX(-100%)`};
   display: flex;
   flex-direction: column;

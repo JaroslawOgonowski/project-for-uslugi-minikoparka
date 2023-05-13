@@ -29,6 +29,10 @@ export const Owner = styled.div`
   @media (max-width: 767px) {
     flex-wrap: wrap-reverse;
   };
+
+  @media (max-width: 370px) {
+margin-bottom: 16px;
+  };
 `;
 
 export const Logo = styled.img`
@@ -46,6 +50,7 @@ export const StyledLink = styled.a`
 
   @media (max-width: 420px) {
     font-size: 14px;
+    align-items: center;
   }
 `;
 

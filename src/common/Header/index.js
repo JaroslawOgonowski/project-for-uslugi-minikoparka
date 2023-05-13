@@ -8,10 +8,10 @@ export const Header = () => {
       <Wrapper>
         <LeftBox>
           <Owner>
-            <Logo src={koparka} />
-            {(window.innerWidth < 500) ? null : "Radosław Urbaniak"}
+            {(window.innerWidth < 370) ? null : <Logo src={koparka} />}
+            {(window.innerWidth < 700) ? null : "Radosław Urbaniak"}
             <StyledLink href="tel:+48.513651750" title="kontakt telefoniczny">
-             <Phone src={phone} alt="" />
+              <Phone src={phone} alt="" />
               513 651 750
             </StyledLink>
           </Owner>
