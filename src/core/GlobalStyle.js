@@ -2,6 +2,7 @@ import { createGlobalStyle } from "styled-components";
 
 export const GlobalStyle = createGlobalStyle`
 body{
+  position: relative;
   margin: 0;
   padding: 0;
   background-color: #0a0909;

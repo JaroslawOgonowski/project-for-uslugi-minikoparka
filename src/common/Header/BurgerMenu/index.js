@@ -9,7 +9,10 @@ export const BurgerMenu = () => {
     <>
       <nav >
         <BurgerButton >
-          <BurgerDiv open={open} onClick={() => setOpen(!open)}>
+          <BurgerDiv
+            open={open}
+            onClick={() => setOpen(!open)
+            }>
             <BurgerSpan open={open} />
             <BurgerSpan open={open} />
             <BurgerSpan open={open} />
@@ -17,12 +20,12 @@ export const BurgerMenu = () => {
         </BurgerButton>
 
         <NavList open={open}>
-          <Item><Label>O Nas</Label></Item>
-          <Item><Label>Usługi</Label></Item>
-          <Item><Label>Minikoparka</Label></Item>
-          <Item><Label>Realizacje</Label></Item>
-          <Item><Label>Lokalizacja</Label></Item>
-          <Item><Label>Kontakt</Label></Item>
+          <Item onClick={(window.innerWidth < 767) ? () => setOpen(!open) : null}><Label>O Nas</Label></Item>
+          <Item onClick={(window.innerWidth < 767) ? () => setOpen(!open) : null}><Label>Usługi</Label></Item>
+          <Item onClick={(window.innerWidth < 767) ? () => setOpen(!open) : null}><Label>Minikoparka</Label></Item>
+          <Item onClick={(window.innerWidth < 767) ? () => setOpen(!open) : null}><Label>Realizacje</Label></Item>
+          <Item onClick={(window.innerWidth < 767) ? () => setOpen(!open) : null}><Label>Lokalizacja</Label></Item>
+          <Item onClick={(window.innerWidth < 767) ? () => setOpen(!open) : null}><Label>Kontakt</Label></Item>
         </NavList>
       </nav>
     </>

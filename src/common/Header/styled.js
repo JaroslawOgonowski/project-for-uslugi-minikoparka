@@ -19,6 +19,18 @@ export const LeftBox = styled.div`
   align-self: flex-end;
 `;
 
+export const Owner = styled.div`
+  align-self: flex-end;
+  font-family: 'Saira', sans-serif;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+
+  @media (max-width: 767px) {
+    flex-wrap: wrap-reverse;
+  };
+`;
+
 export const Logo = styled.img`
   width: 60px;
   border-radius: 5px;
@@ -26,19 +38,15 @@ export const Logo = styled.img`
   margin-bottom: 10px;
 `;
 
-export const Owner = styled.div`
-  align-self: flex-end;
-  font-family: 'Saira', sans-serif;
-  font-size: 20px;
-  display: flex;
-  align-items: center;
-`;
-
 export const StyledLink = styled.a`
   text-decoration: none;
   display: flex;
   align-content: center;
-  color: black
+  color: black;
+
+  @media (max-width: 420px) {
+    font-size: 14px;
+  }
 `;
 
 export const Phone = styled.img`
@@ -50,6 +58,10 @@ export const Title = styled.h1`
   margin-right: 20%;
   display: flex;
   gap: 4px;
+
+  @media (max-width: 900px) {
+    margin-right: 16px;
+  }
 `;
 
 export const Border = styled.div`
@@ -60,16 +72,30 @@ export const Border = styled.div`
   align-items: center;
   justify-content: space-between;
   background-color: rgba(252,156,0,1);
+
+  @media (max-width: 530px) {
+    width: 50px;
+    justify-content: flex-start;
+  }
 `;
 
 export const SpanScribe = styled.span`
   font-family: 'Ms Madi', cursive;
   font-size: 36px;
+
+  @media (max-width: 530px) {
+    margin-top: 12px;
+    font-size: 20px;
+  }
 `;
 
 export const SpanBlackText = styled.span`
   font-family: 'Black Ops One', cursive;
   font-size: 36px;
+  
+  @media (max-width: 530px) {
+    font-size: 20px;
+  }
 `;
 
 export const SpanOrangeText = styled.span`
@@ -78,4 +104,10 @@ export const SpanOrangeText = styled.span`
   align-self: flex-end;
   font-size: 36px;
   color: rgba(236, 155, 25, 1);
-`;
+  
+  @media (max-width: 530px) {
+    font-size: 20px;
+    align-self: start;
+    margin-top: 38px;
+  }
+  `;

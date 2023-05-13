@@ -66,7 +66,7 @@ export const NavList = styled.nav`
   transition: 0.3s linear;
   background-color: #ede6e6;
   color: black;
-  width: 20%;
+  width: 280px;
   height: 76.5vh;
   transform: ${({ open }) => open ? `translateX(0)` : `translateX(-100%)`};
   display: flex;
@@ -74,13 +74,17 @@ export const NavList = styled.nav`
   align-items: center;
   gap: 20px;
   list-style: none;
+
+  @media (max-width: 767px) {
+  width: 100%
+  }
 `;
 
 export const Item = styled.li`
   cursor: pointer;
   width: 100%;
   font-family: 'Saira', sans-serif;
-  font-size: 30px;
+  font-size: 26px;
   padding: 10px 0;
 
   &:hover{
