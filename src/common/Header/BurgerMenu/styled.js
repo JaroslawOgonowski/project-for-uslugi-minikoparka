@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import styled from "styled-components";
+import styled, { css } from "styled-components";
 
 export const BurgerButton = styled.button`
   position: absolute;
@@ -69,7 +69,8 @@ export const NavList = styled.nav`
   color: black;
   width: 280px;
   height: 100%;
-  transform: ${({ open }) => open ? `translateX(0)` : `translateX(-100%)`};
+  transform: ${({ open }) => open ? `translateX(0)` : `translateX(-100000000px);    height:0; 
+    width:0;`};
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -78,6 +79,7 @@ export const NavList = styled.nav`
 
   @media (max-width: 767px) {
   width: 100%;
+  transform: ${({ open }) => open ? `translateX(0)` : `translateX(-100%); `}
   }
 `;
 

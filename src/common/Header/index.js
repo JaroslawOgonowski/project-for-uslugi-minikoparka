@@ -1,4 +1,4 @@
-import { Border, LeftBox, Logo, Owner, Phone, StyledLink, SpanBlackText, SpanOrangeText, SpanScribe, Title, Wrapper } from "./styled";
+import { Border, LeftBox, Logo, Owner, Phone, StyledLink, SpanBlackText, SpanOrangeText, SpanScribe, Title, Wrapper, HeaderContent } from "./styled";
 import koparka from "./images/Koparka.png"
 import phone from "./images/phone.jpg"
 export const Header = () => {
@@ -6,6 +6,7 @@ export const Header = () => {
   return (
     <>
       <Wrapper>
+        <HeaderContent>
         <LeftBox>
           <Owner>
             {(window.innerWidth < 370) ? null : <Logo src={koparka} />}
@@ -25,6 +26,7 @@ export const Header = () => {
             <SpanOrangeText>koparką</SpanOrangeText>
           </StyledLink>
         </Title>
+        </HeaderContent>
       </Wrapper>
     </>
   );

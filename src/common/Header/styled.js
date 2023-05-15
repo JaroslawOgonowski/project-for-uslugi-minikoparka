@@ -3,13 +3,19 @@ import styled from "styled-components";
 export const Wrapper = styled.header`
   width: 100%;
   height: 93px;
-  display: flex;
-  gap: 15px;
-  align-items: center;
-  justify-content: space-between;
   color: #0a0909;
   background: rgb(255,255,255);
   background: linear-gradient(0deg, rgba(255,255,255,1) 65%, rgba(252,156,0,1) 65%, rgba(250,154,0,1) 80%, rgba(255,255,255,0.9920343137254902) 80%);
+`;
+
+export const HeaderContent = styled.div`
+width: 1360px;
+height: 100%;
+margin: 0 auto;
+display: flex;
+  gap: 15px;
+  align-items: center;
+  justify-content: space-between;
 `;
 
 export const LeftBox = styled.div`
