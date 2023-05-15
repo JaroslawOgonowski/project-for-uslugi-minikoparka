@@ -1,9 +1,13 @@
 import { useState } from "react";
-import { BurgerButton, BurgerDiv, BurgerSpan, Item, Label, NavList, StyledNavigation } from "./styled"
+import { BurgerButton, BurgerDiv, BurgerSpan, Item, Label, NavList, StyledLink } from "./styled"
 
 export const BurgerMenu = () => {
 
   const [open, setOpen] = useState(false);
+  const changeOpen = () => {
+    if (window.innerWidth < 767) { setOpen(!open) }
+    else return;
+  }
 
   return (
     <>
@@ -20,12 +24,12 @@ export const BurgerMenu = () => {
         </BurgerButton>
 
         <NavList open={open}>
-          <Item onClick={(window.innerWidth < 767) ? () => setOpen(!open) : null}><Label>O Nas</Label></Item>
-          <Item onClick={(window.innerWidth < 767) ? () => setOpen(!open) : null}><Label>Usługi</Label></Item>
-          <Item onClick={(window.innerWidth < 767) ? () => setOpen(!open) : null}><Label>Minikoparka</Label></Item>
-          <Item onClick={(window.innerWidth < 767) ? () => setOpen(!open) : null}><Label>Realizacje</Label></Item>
-          <Item onClick={(window.innerWidth < 767) ? () => setOpen(!open) : null}><Label>Lokalizacja</Label></Item>
-          <Item onClick={(window.innerWidth < 767) ? () => setOpen(!open) : null}><Label>Kontakt</Label></Item>
+          <StyledLink to="/o-nas"><Item onClick={() => changeOpen()}><Label>O Nas</Label></Item></StyledLink>
+          <StyledLink to="/uslugi"><Item onClick={() => changeOpen()}><Label>Usługi</Label></Item></StyledLink>
+          <StyledLink to="/minikoparka"><Item onClick={() => changeOpen()}><Label>Minikoparka</Label></Item></StyledLink>
+          <StyledLink to="/realizacje"><Item onClick={() => changeOpen()}><Label>Realizacje</Label></Item></StyledLink>
+          <StyledLink to="/lokalizacja"><Item onClick={() => changeOpen()}><Label>Lokalizacja</Label></Item></StyledLink>
+          <StyledLink to="/kontakt"><Item onClick={() => changeOpen()}><Label>Kontakt</Label></Item></StyledLink>
         </NavList>
       </nav>
     </>

@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import styled from "styled-components";
 
 export const BurgerButton = styled.button`
@@ -76,8 +77,14 @@ export const NavList = styled.nav`
   list-style: none;
 
   @media (max-width: 767px) {
-  width: 100%
+  width: 100%;
   }
+`;
+
+export const StyledLink = styled(Link)`
+  text-decoration: none;
+  color: black;
+  width: 100%;
 `;
 
 export const Item = styled.li`
@@ -90,6 +97,10 @@ export const Item = styled.li`
   &:hover{
     background-color: rgba(252,156,0,1);
   };
+
+  @media (max-width: 767px) {
+  text-align: center;
+  };
 `;
 
 export const Label = styled.div`
@@ -97,8 +108,15 @@ export const Label = styled.div`
   padding-left: 16px;
   transition: 0.5s;
 
-  &:hover{
-    width: calc(100% - 50px);
-    padding-left: 50px;
+  @media (min-width: 767px) {
+    &:hover{
+      width: calc(100% - 50px);
+      padding-left: 50px;
+    };
   };
-`
+
+  @media (max-width: 767px) {
+      padding-left: 0;
+      width: 100%;
+  };
+`;
