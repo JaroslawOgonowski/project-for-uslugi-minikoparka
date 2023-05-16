@@ -28,15 +28,11 @@ export const LeftBox = styled.div`
 export const Owner = styled.div`
   align-self: flex-end;
   font-family: 'Saira', sans-serif;
-  font-size: 20px;
+  font-size: 18px;
   display: flex;
   align-items: center;
 
-  @media (max-width: 767px) {
-    flex-wrap: wrap-reverse;
-  };
-
-  @media (max-width: 370px) {
+  @media (max-width: 371px) {
 margin-bottom: 16px;
   };
 `;
@@ -46,6 +42,11 @@ export const Logo = styled.img`
   border-radius: 5px;
   align-self: flex-end;
   margin-bottom: 10px;
+  margin-right: 8px;
+
+  @media (max-width: 767px) {
+    width:48px;
+  }
 `;
 
 export const StyledLink = styled.a`
@@ -63,6 +64,10 @@ export const StyledLink = styled.a`
 export const Phone = styled.img`
   width: 32px;
   margin: 0 8px;
+
+  @media (max-width: 385px) {
+    width: 24px;
+  }
 `;
 
 export const Title = styled.h1`
