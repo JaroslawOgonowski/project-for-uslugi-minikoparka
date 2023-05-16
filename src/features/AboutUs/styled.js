@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const Image = styled.img`
 border-radius: 5px;
 height: 320px;
-margin-top: 16px;
+margin: 16px 0;
 
 @media (max-width: 767px){
   width: 40%;

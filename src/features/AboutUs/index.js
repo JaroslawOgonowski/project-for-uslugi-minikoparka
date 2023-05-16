@@ -7,6 +7,15 @@ export const AboutUs = () => {
 
       <StyledArticle>
         <Title><strong>Usługi minikoparką</strong> - kilka słów o nas</Title>
+        <Subtitle>O firmie:</Subtitle>
+        Firma powstała w 2022r na bazie wieloletniego doświadczenia w branży. 
+        Naszym celem jest realizacja zleceń w cenach rynkowych przy uzględnieniu najwyższej jakości, 
+        szybkości wykonania i co najważniejsze zadowolenia klientów. 
+        Wykonujemy drobne i duże prace kompleksowo- od wspólnego zaplanowania prac do porządkowania terenu po zleceniu.
+        Dzieki wysokiej jakości sprzętu jesteśmy w stanie wykonać każdy wykop do głębokości 2.6 metra- 
+        zarówno pod fundamenty, fotowoltnikę, domowe oczyszczalnie lub szambo jak i wszelkiego rodzaju 
+        przyłącza wodne, elektryczne i gazowe wraz z montażem.
+        Jesteśmy otwarci na Państwa sugestie i pytania.  
         <Subtitle>Główny operator:</Subtitle>
         <Content>
           <Image src={owner} alt="Radosław Urbaniak photo" />
