@@ -9,7 +9,7 @@ export const Wrapper = styled.header`
 `;
 
 export const HeaderContent = styled.div`
-width: 1360px;
+max-width: 1360px;
 height: 100%;
 margin: 0 auto;
 display: flex;
