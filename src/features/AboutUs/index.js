@@ -1,7 +1,10 @@
-import { Content, StyledArticle, Subtitle, Title } from "./styled";
+import { Content, Image, StyledArticle, Subtitle, Title } from "./styled";
+import owner from "./RadosławUrbaniak.jpg"
 
 export const AboutUs = () => {
   return (
+  <>
+  <Image src={owner} alt="Radosław Urbaniak photo"/>
   <StyledArticle>
     <Title><strong>Usługi minikoparką</strong> - kilka słów o nas</Title>
   <Subtitle>Główny operator:</Subtitle>
@@ -14,5 +17,6 @@ export const AboutUs = () => {
     Często również własnoręcznie wykonuje zlecenie co skutkuje najwyższą jakością usługi i oczywiście Państwa komfortem.
   </Content>
   </StyledArticle>
+  </>
   );
 };

@@ -1,4 +1,11 @@
 import styled from "styled-components";
+
+export const Image = styled.img`
+border-radius: 5px;
+height: 320px;
+margin-top: 16px;
+`
+
 export const StyledArticle = styled.article`
   width: 100%;
   display: flex;
