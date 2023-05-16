@@ -1,13 +1,14 @@
 {
   "files": {
-    "main.js": "/project-for-uslugi-minikoparka/static/js/main.107a89d4.js",
+    "main.js": "/project-for-uslugi-minikoparka/static/js/main.42dd967e.js",
     "static/js/787.07473dc0.chunk.js": "/project-for-uslugi-minikoparka/static/js/787.07473dc0.chunk.js",
     "static/media/Koparka.png": "/project-for-uslugi-minikoparka/static/media/Koparka.03ab24726ab1618a702d.png",
+    "static/media/RadosławUrbaniak.jpg": "/project-for-uslugi-minikoparka/static/media/RadosławUrbaniak.6fbec964ca79de03176b.jpg",
     "index.html": "/project-for-uslugi-minikoparka/index.html",
-    "main.107a89d4.js.map": "/project-for-uslugi-minikoparka/static/js/main.107a89d4.js.map",
+    "main.42dd967e.js.map": "/project-for-uslugi-minikoparka/static/js/main.42dd967e.js.map",
     "787.07473dc0.chunk.js.map": "/project-for-uslugi-minikoparka/static/js/787.07473dc0.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.107a89d4.js"
+    "static/js/main.42dd967e.js"
   ]
 }
