@@ -9,10 +9,10 @@ export const Wrapper = styled.header`
 `;
 
 export const HeaderContent = styled.div`
-max-width: 1360px;
-height: 100%;
-margin: 0 auto;
-display: flex;
+  max-width: 1360px;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
   gap: 15px;
   align-items: center;
   justify-content: space-between;
@@ -33,7 +33,7 @@ export const Owner = styled.div`
   align-items: center;
 
   @media (max-width: 371px) {
-margin-bottom: 16px;
+    margin-bottom: 16px;
   };
 `;
 
