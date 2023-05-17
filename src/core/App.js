@@ -6,6 +6,7 @@ import { AboutUs } from "../features/AboutUs";
 import { Contact } from "../features/Contact";
 import { Main } from "../common/Main";
 import { StyledSwitch } from "./styled";
+import { Footer } from "../common/Footer";
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
                 <Redirect to="/o-nas" /></Route>
             </StyledSwitch>
             </Main>
+            <Footer/>
           </HashRouter >
       
     </>

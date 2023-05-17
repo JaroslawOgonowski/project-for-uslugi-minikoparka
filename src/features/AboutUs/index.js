@@ -14,7 +14,7 @@ export const AboutUs = () => {
         Wykonujemy drobne i duże prace kompleksowo- od wspólnego zaplanowania prac do porządkowania terenu po zleceniu.
         Dzieki wysokiej jakości sprzętu jesteśmy w stanie wykonać każdy wykop do głębokości 2.6 metra- 
         zarówno pod fundamenty, fotowoltnikę, domowe oczyszczalnie lub szambo jak i wszelkiego rodzaju 
-        przyłącza wodne, elektryczne i gazowe wraz z montażem.
+        przyłącza wodne (wraz z montażem), elektryczne i gazowe.
         Jesteśmy otwarci na Państwa sugestie i pytania.  
         <Subtitle>Główny operator:</Subtitle>
         <Content>
