@@ -68,7 +68,7 @@ export const NavList = styled.nav`
   background-color: #ede6e6;
   color: black;
   width: 280px;
-  height: 100%;
+  height: 480px;
   transform: ${({ open }) => open ? `translateX(0)` : `translateX(-100000000px);    height:0; 
     width:0;`};
   display: flex;
