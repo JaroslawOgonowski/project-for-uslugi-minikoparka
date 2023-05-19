@@ -17,11 +17,25 @@ export const StyledContact = styled.div`
   flex-direction: column;
   justify-content: center;
   width: 40%;
+  animation: contactAnimation 2s ease normal forwards;
 
   @media (max-width: 767px){
-    width: 100%;
-    margin: 0 16px;
+    width: calc(100% - 32px);
+    margin: 0 auto;
+    align-items: center;
   }
+
+  @keyframes contactAnimation {
+	0% {
+		opacity: 0;
+		transform: translateY(-250px);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
 `
 
 export const StyledForm = styled.form`

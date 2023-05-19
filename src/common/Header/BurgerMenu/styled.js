@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import styled, { css } from "styled-components";
+import styled from "styled-components";
 
 export const BurgerButton = styled.button`
   position: absolute;
@@ -29,7 +29,7 @@ export const BurgerDiv = styled.div`
   justify-content: center;
   align-items: center; 
   gap: 6px;
-  background: transparent;
+  background: #2a2323;;
   border: none;
   padding: 0;
   z-index: 10;
@@ -42,7 +42,7 @@ export const BurgerDiv = styled.div`
 export const BurgerSpan = styled.span`
   width: 75%;
   height: 4px;
-  background: black;
+  background: white;
   transition: all 0.3s linear;
   position: relative;
 
@@ -65,7 +65,7 @@ export const NavList = styled.nav`
   padding-top: 60px;
   margin-top: -50px;
   transition: 0.3s linear;
-  background-color: #ede6e6;
+  background-color: #2a2323;
   color: black;
   width: 280px;
   height: 480px;
@@ -85,7 +85,7 @@ export const NavList = styled.nav`
 
 export const StyledLink = styled(Link)`
   text-decoration: none;
-  color: black;
+  color: white;
   width: 100%;
 `;
 
@@ -98,6 +98,7 @@ export const Item = styled.li`
 
   &:hover{
     background-color: rgba(252,156,0,1);
+    color: black;
   };
 
   @media (max-width: 767px) {

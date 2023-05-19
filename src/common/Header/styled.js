@@ -16,6 +16,11 @@ export const HeaderContent = styled.div`
   gap: 15px;
   align-items: center;
   justify-content: space-between;
+
+  @media (max-width: 450px) {
+    justify-content: space-evenly;
+    gap: 0;
+  };  
 `;
 
 export const LeftBox = styled.div`
@@ -35,18 +40,6 @@ export const Owner = styled.div`
   @media (max-width: 371px) {
     margin-bottom: 16px;
   };
-`;
-
-export const Logo = styled.img`
-  width: 60px;
-  border-radius: 5px;
-  align-self: flex-end;
-  margin-bottom: 10px;
-  margin-right: 8px;
-
-  @media (max-width: 767px) {
-    width:48px;
-  }
 `;
 
 export const StyledLink = styled.a`
@@ -74,10 +67,23 @@ export const Title = styled.h1`
   margin-right: 20%;
   display: flex;
   gap: 4px;
+  animation: titleAnimation 3s ease normal forwards;
 
   @media (max-width: 900px) {
     margin-right: 16px;
   }
+
+  @keyframes titleAnimation {
+	0% {
+		opacity: 0;
+		transform: translateX(250px);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateX(0);
+	}
+}
 `;
 
 export const Border = styled.div`
@@ -88,30 +94,16 @@ export const Border = styled.div`
   align-items: center;
   justify-content: space-between;
   background-color: rgba(252,156,0,1);
-
-  @media (max-width: 530px) {
-    width: 50px;
-    justify-content: flex-start;
-  }
 `;
 
 export const SpanScribe = styled.span`
   font-family: 'Ms Madi', cursive;
   font-size: 36px;
-
-  @media (max-width: 530px) {
-    margin-top: 12px;
-    font-size: 20px;
-  }
 `;
 
 export const SpanBlackText = styled.span`
   font-family: 'Black Ops One', cursive;
   font-size: 36px;
-  
-  @media (max-width: 530px) {
-    font-size: 20px;
-  }
 `;
 
 export const SpanOrangeText = styled.span`
@@ -120,10 +112,32 @@ export const SpanOrangeText = styled.span`
   align-self: flex-end;
   font-size: 36px;
   color: rgba(236, 155, 25, 1);
-  
-  @media (max-width: 530px) {
-    font-size: 20px;
-    align-self: start;
-    margin-top: 38px;
-  }
   `;
+  
+  export const Logo = styled.img`
+  width: 60px;
+  border-radius: 5px;
+  align-self: flex-end;
+  margin-bottom: 10px;
+  margin-right: 8px;
+  animation: logoAnimation 6s ease 0s infinite alternate forwards;
+
+  @media (max-width: 767px) {
+    width:48px;
+  }
+
+  @keyframes logoAnimation {
+	0% {
+		transform: translateX(-20px);
+	}
+20%{
+  transform: rotate(4deg);
+}
+50%{
+  transform: rotate(-6deg);
+}
+	100% {
+		transform: translateX(13px);
+	}
+}
+`;

@@ -8,6 +8,7 @@ body{
   padding: 0;
   background-color: #141311;
   color: #ede6e6;
+  overflow-x: hidden;
 };
 
 *, ::after, ::before {

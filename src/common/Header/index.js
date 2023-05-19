@@ -22,11 +22,13 @@ export const Header = () => {
           <LeftBox>
             <Owner>
               {(width < 372) ? null : <Logo src={koparka} />}
-              {(width < 700) ? null : "Radosław Urbaniak"}
-              <StyledLink href="tel:+48.513651750" title="kontakt telefoniczny">
-                <Phone src={phone} alt="" />
-                513 651 750
-              </StyledLink>
+              {(width < 435) ? null : "Radosław Urbaniak"}
+              {(width < 700) ? null :
+                <StyledLink href="tel:+48.513651750" title="kontakt telefoniczny">
+                  <Phone src={phone} alt="" />
+                  513 651 750
+                </StyledLink>
+              }
             </Owner>
           </LeftBox>
           <Title>

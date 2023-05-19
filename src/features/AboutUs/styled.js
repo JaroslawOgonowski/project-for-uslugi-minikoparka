@@ -16,6 +16,19 @@ export const StyledArticle = styled.article`
   display: flex;
   flex-direction: column;
   margin: 0 16px;
+  animation: articleAnimation 2s ease normal forwards;
+  
+  @keyframes articleAnimation {
+	0% {
+		opacity: 0;
+		transform: translateX(250px);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateX(0);
+	}
+}
 `
 
 export const Title = styled.h2`
@@ -27,7 +40,6 @@ export const Title = styled.h2`
   }
 `
 export const Subtitle = styled.h3`
-  margin-left: 16px;
 `
 
 export const Content = styled.div`

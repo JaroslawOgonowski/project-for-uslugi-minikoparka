@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled, { css } from "styled-components";
 import { ReactComponent as Phone } from "./images/phone-number-svgrepo-com.svg";
 import { ReactComponent as Mail } from "./images/email-svgrepo-com.svg";
 
@@ -9,6 +9,10 @@ export const StyledPageFooter = styled.footer`
   @media (max-width: 1360px) {
     margin-left: 16px;
     margin-right: 16px;
+  };
+
+  @media (max-width: 767px) {
+    margin: 60px 16px 0 16px;
   };
 `;
 
@@ -71,6 +75,45 @@ export const Wrapper = styled.div`
   max-width: 1216px;
   margin: auto;
   margin-bottom: 109px;
+
+  &&{
+    ${({ animation }) => animation && css`
+    
+  animation: footerAnimation 3s ease normal forwards;
+
+  @keyframes footerAnimation {
+	0%,
+	100% {
+		transform: rotate(0deg);
+		transform-origin: 0 50%;
+	}
+
+	10% {
+		transform: rotate(2deg);
+	}
+
+	20%,
+	40%,
+	60% {
+		transform: rotate(-4deg);
+	}
+
+	30%,
+	50%,
+	70% {
+		transform: rotate(4deg);
+	}
+
+	80% {
+		transform: rotate(-2deg);
+	}
+
+	90% {
+		transform: rotate(2deg);
+	}
+}
+`};
+}
 `;
 
 export const PhoneIcon = styled(Phone)`
