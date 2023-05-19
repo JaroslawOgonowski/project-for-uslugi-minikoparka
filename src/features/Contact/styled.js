@@ -7,7 +7,7 @@ export const Title = styled.h2`
   margin: 16px auto;
 
   @media (max-width: 767px){
-    margin: 16px;
+    margin: 16px 0;
   }
 `
 
