@@ -1,11 +1,22 @@
 import styled from "styled-components";
 
+export const Title = styled.h2`
+  font-weight: 400;
+  font-family: 'Saira', sans-serif;
+  font-size: 20px;
+  margin: 16px auto;
+
+  @media (max-width: 767px){
+    margin: 16px;
+  }
+`
+
 export const StyledContact = styled.div`
   margin: 0 auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: 50%;
+  width: 40%;
 
   @media (max-width: 767px){
     width: 100%;
@@ -24,19 +35,20 @@ export const StyledForm = styled.form`
 `;
 
 export const Label = styled.label`
-  font-size: 22px;
+  font-size: 16px;
   margin: 8px 0;
 `;
 
 export const Input = styled.input`
   font-family: 'Saira', sans-serif;
   font-size: 16px;
-  padding: 10px;
+  padding: 8px;
   border-radius: 5px;
 `
 export const TextArea = styled.textarea`
-  max-width: 100%;
-  height: 200px;
+  width: 100%;
+  margin: 0 auto;
+  height: 120px;
   font-family: 'Saira', sans-serif;
   font-size: 16px;
   resize: none;
