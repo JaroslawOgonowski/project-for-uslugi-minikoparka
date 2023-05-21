@@ -1,11 +1,13 @@
+import { ServicesDetailsList, StyledServices, Title } from "./styled"
+
 export const Services = () => {
   return(
-    <>
-    <h2>Nasze usługi</h2>
+    <StyledServices>
+    <Title>Nasze usługi</Title>
     <ul>
       <li>
-        Wykopy pod:
-        <ul>
+      Wykopy pod:
+        <ServicesDetailsList>
         <li>fundamenty</li>
         <li>instalacje: wodne, gazowe, elektryczne</li>
         <li>małą zabudowę: garaże, ogrodzenia, tarasy</li>
@@ -13,11 +15,11 @@ export const Services = () => {
         <li>systemy nawodnień i drenaż działki</li>
         <li>oczka wodne, stawy</li>
         <li>podjazdy, wyjazdy, ścieżki</li>
-      </ul>
+      </ServicesDetailsList>
       </li>
       <li>wszelkie wykopy do głębokości 2.6m</li>
       <li>montaż instalacji wodnych</li>
     </ul>
-    </>
+    </StyledServices>
   )
 }
