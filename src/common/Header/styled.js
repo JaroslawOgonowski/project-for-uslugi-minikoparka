@@ -128,7 +128,7 @@ export const SpanOrangeText = styled.span`
 
   @keyframes logoAnimation {
 	0% {
-		transform: translateX(-20px);
+		transform: translateX(-18px);
 	}
 20%{
   transform: rotate(4deg);

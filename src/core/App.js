@@ -7,6 +7,7 @@ import { Contact } from "../features/Contact";
 import { Main } from "../common/Main";
 import { StyledSwitch } from "./styled";
 import { Footer } from "../common/Footer";
+import { Services } from "../features/Services";
 
 function App() {
   return (
@@ -18,7 +19,7 @@ function App() {
             <BurgerMenu/>
             <StyledSwitch>
               <Route path="/o-nas"><AboutUs/></Route>
-              <Route path="/uslugi"></Route>
+              <Route path="/uslugi"><Services/></Route>
               <Route path="/minikoparka"></Route>
               <Route path="/realizacje"></Route>
               <Route path="/lokalizacja"></Route>
