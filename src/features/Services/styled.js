@@ -36,3 +36,7 @@ list-style: none;
     margin-right: 0.5em;
   }
 `;
+
+export const MainItem = styled.li`
+margin-bottom: 16px;
+`
