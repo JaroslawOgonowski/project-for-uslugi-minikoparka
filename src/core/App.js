@@ -8,29 +8,30 @@ import { Main } from "../common/Main";
 import { StyledSwitch } from "./styled";
 import { Footer } from "../common/Footer";
 import { Services } from "../features/Services";
+import { Realization } from "../features/Realization";
 
 function App() {
   return (
     <>
       <GlobalStyle />
       <HashRouter>
-            <Header />
-            <Main>
-            <BurgerMenu/>
-            <StyledSwitch>
-              <Route path="/o-nas"><AboutUs/></Route>
-              <Route path="/uslugi"><Services/></Route>
-              <Route path="/minikoparka"></Route>
-              <Route path="/realizacje"></Route>
-              <Route path="/lokalizacja"></Route>
-              <Route path="/kontakt"><Contact/></Route>
-              <Route path="/">
-                <Redirect to="/o-nas" /></Route>
-            </StyledSwitch>
-            </Main>
-            <Footer/>
-          </HashRouter >
-      
+        <Header />
+        <Main>
+          <BurgerMenu />
+          <StyledSwitch>
+            <Route path="/o-nas"><AboutUs /></Route>
+            <Route path="/uslugi"><Services /></Route>
+            <Route path="/minikoparka"></Route>
+            <Route path="/realizacje"><Realization /></Route>
+            <Route path="/lokalizacja"></Route>
+            <Route path="/kontakt"><Contact /></Route>
+            <Route path="/">
+              <Redirect to="/o-nas" /></Route>
+          </StyledSwitch>
+        </Main>
+        <Footer />
+      </HashRouter >
+
     </>
   );
 }

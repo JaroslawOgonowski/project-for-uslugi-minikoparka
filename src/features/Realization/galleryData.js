@@ -1,8 +1,8 @@
 import { nanoid } from "nanoid";
 
-export const imagesURLs =
+export const galleryData =
   [
-    { 
+    {
       id: nanoid(),
       firstURL: "https://scontent.fwaw3-2.fna.fbcdn.net/v/t39.30808-6/336177416_602899761700866_7113642657783956494_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=lrKKF3poq8UAX8pF5ME&_nc_ht=scontent.fwaw3-2.fna&oh=00_AfDHPGPokMoxV9O-h17bnmHyCr0VXqrjDQK9v-siScHZ6Q&oe=6470DCC1",
       secondURL: "https://scontent.fwaw3-1.fna.fbcdn.net/v/t39.30808-6/336062022_750099453136611_3234836029074040927_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=palY72zTwp0AX9nCBlw&_nc_ht=scontent.fwaw3-1.fna&oh=00_AfAZtdmcSk6MzibJKMvc4-PtHYYjOWQ6uDb_gMDsJIv17Q&oe=647146B6",
