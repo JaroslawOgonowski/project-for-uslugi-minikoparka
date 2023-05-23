@@ -1,8 +1,8 @@
 import styled from 'styled-components';
 
 export const StyledArticle = styled.article`
-display: flex;
-flex-direction: column;
+  display: flex;
+  flex-direction: column;
   max-width: 100%;
   margin: 0 auto;
   display: flex;
@@ -18,10 +18,11 @@ flex-direction: column;
 `
 
 export const GalleryContainer = styled.div`
-width: 100%;
+  width: 95%;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  align-self: center;
 
   @media (max-width: 768px) {
     flex-direction: column;
@@ -57,22 +58,30 @@ export const GalleryImageContainer = styled.div`
 `;
 
 export const GalleryImage = styled.div`
-
-
-aspect-ratio: 3/4;
-width: 32%;
-background-image: url(${(props) => props.url});
+  cursor: pointer;
+  aspect-ratio: 3/4;
+  width: 32%;
+  background-image: url(${(props) => props.url});
   background-repeat: no-repeat;
   background-size: cover;
+  transition: 0.5s;
+
   @media (max-width: 768px) {
     width: 98%;
     margin-bottom: 0.5rem;
+  }
+
+  &:hover{
+    @media (min-width: 768px) {
+      transform: scale(1.05);
+    }
   }
 `;
 
 export const GalleryDescription = styled.p`
   font-size: 1.2rem;
-  margin: 0 4px;
+  margin: 0 32px;
+  
   :before {
     content: "🦺 ";
   }
