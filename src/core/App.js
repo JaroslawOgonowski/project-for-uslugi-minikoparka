@@ -9,6 +9,7 @@ import { StyledSwitch } from "./styled";
 import { Footer } from "../common/Footer";
 import { Services } from "../features/Services";
 import { Realization } from "../features/Realization";
+import { Location } from "../features/Location";
 
 function App() {
   return (
@@ -23,7 +24,7 @@ function App() {
             <Route path="/uslugi"><Services /></Route>
             <Route path="/minikoparka"></Route>
             <Route path="/realizacje"><Realization /></Route>
-            <Route path="/lokalizacja"></Route>
+            <Route path="/lokalizacja"><Location/></Route>
             <Route path="/kontakt"><Contact /></Route>
             <Route path="/">
               <Redirect to="/o-nas" /></Route>
