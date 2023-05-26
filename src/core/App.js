@@ -24,15 +24,14 @@ function App() {
             <Route path="/uslugi"><Services /></Route>
             <Route path="/minikoparka"></Route>
             <Route path="/realizacje"><Realization /></Route>
-            <Route path="/lokalizacja"><Location/></Route>
+            <Route path="/lokalizacja"><Location /></Route>
             <Route path="/kontakt"><Contact /></Route>
             <Route path="/">
               <Redirect to="/o-nas" /></Route>
           </StyledSwitch>
-        </Main>
+        </Main> 
         <Footer />
       </HashRouter >
-
     </>
   );
 }
