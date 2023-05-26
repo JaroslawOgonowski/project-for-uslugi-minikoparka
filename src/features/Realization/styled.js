@@ -7,6 +7,19 @@ export const StyledArticle = styled.article`
   margin: 0 auto;
   display: flex;
   gap: 20px;
+  animation: articleAnimation 2s ease normal forwards;
+  
+  @keyframes articleAnimation {
+	0% {
+		opacity: 0;
+		transform: translateX(250px);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateX(0);
+	}
+}
 
   @media (max-width: 1360px) {
     width: 100%;  

@@ -1,6 +1,23 @@
 import styled from "styled-components";
 
-export const StyledMap = styled.div`
-width: 600px;
-height:400px;
+export const StyledLocation = styled.article`
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  animation: articleAnimation 2s ease normal forwards;
+  
+  @keyframes articleAnimation {
+	0% {
+		opacity: 0;
+		transform: translateX(250px);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateX(0);
+	}
+}
 `

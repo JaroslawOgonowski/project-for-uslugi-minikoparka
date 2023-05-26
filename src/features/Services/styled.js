@@ -1,35 +1,35 @@
 import styled from "styled-components";
 
 export const StyledServices = styled.article`
-width: 100%;
-display: flex;
-flex-direction: column;
-margin: 0 16px;
-animation: servicesAnimation 1s ease normal forwards;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin: 0 16px;
+  animation: servicesAnimation 1s ease normal forwards;
 
-@keyframes servicesAnimation {
-  0% {
-		opacity: 0;
-		transform: translateX(250px);
-	}
+  @keyframes servicesAnimation {
+    0% {
+		  opacity: 0;
+		  transform: translateX(250px);
+	  }
 
-	100% {
-		opacity: 1;
-		transform: translateX(0);
-	}
-}
+    100% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
 
-@media (max-width: 767px) {
+  @media (max-width: 767px) {
     max-width: 90%;
     margin: 0 auto;
   }
 `
 export const Box = styled.div`
-width: 100%;
-display: flex;
-gap: 10vw;
+  width: 100%;
+  display: flex;
+  gap: 10vw;
 
-@media (max-width: 767px) {
+  @media (max-width: 767px) {
     flex-direction: column;
     gap: 32px;
   }
@@ -45,7 +45,7 @@ export const Title = styled.h2`
   }
 `
 export const ServicesList = styled.ul`
-list-style: none;
+  list-style: none;
   li::before {
     content: "👷‍♂️";
     margin-right: 0.5em;
@@ -57,7 +57,7 @@ list-style: none;
 `;
 
 export const ServicesDetailsList = styled.ul`
-list-style: none;
+  list-style: none;
   li::before {
     content: "🚧";
     margin-right: 0.5em;
@@ -65,19 +65,18 @@ list-style: none;
 `;
 
 export const MainItem = styled.li`
-margin-bottom: 16px;
+  margin-bottom: 16px;
 `
 
 export const Image = styled.div`
-width: 40%;
-aspect-ratio: 3/3.5;
-border-radius: 5px;
-background-image: url(https://scontent.fwaw3-2.fna.fbcdn.net/v/t39.30808-6/311600690_554118770046708_3289223615055676817_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=22Ku-LbEQ6gAX-dwh7J&_nc_ht=scontent.fwaw3-2.fna&oh=00_AfBs0rUXIbjAPn9rYVlbjAV23ziHkAIMKvDeput6vn4quw&oe=64706F9D);
-background-repeat: no-repeat;
-background-size: cover;
-align-self: center;
-
-animation-name: backgroundAnimation;
+  width: 40%;
+  aspect-ratio: 3/3.5;
+  border-radius: 5px;
+  background-image: url(https://scontent.fwaw3-2.fna.fbcdn.net/v/t39.30808-6/311600690_554118770046708_3289223615055676817_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=22Ku-LbEQ6gAX-dwh7J&_nc_ht=scontent.fwaw3-2.fna&oh=00_AfBs0rUXIbjAPn9rYVlbjAV23ziHkAIMKvDeput6vn4quw&oe=64706F9D);
+  background-repeat: no-repeat;
+  background-size: cover;
+  align-self: center;
+  animation-name: backgroundAnimation;
   animation-duration: 30s;
   animation-iteration-count: infinite;
   animation-timing-function: linear;

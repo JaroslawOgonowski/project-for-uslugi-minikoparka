@@ -1,8 +1,12 @@
+import { Title } from "../AboutUs/styled";
 import Map from "./map";
-import { StyledMap } from "./styled";
+import { StyledLocation } from "./styled";
 
 export const Location = () => {
   return (
-    <StyledMap><Map /></StyledMap>
-);
+    <StyledLocation>
+      <Title>Nasz zakres działalności</Title>
+        <Map />
+    </StyledLocation>
+  );
 };

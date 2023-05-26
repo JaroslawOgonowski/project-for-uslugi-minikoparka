@@ -1,4 +1,11 @@
 .leaflet-container{
-  width: 400px;
-  height: 400px;
+  width: 60vw;
+  height: 60vh;
+  margin: 0 auto;
+}
+
+@media (max-width: 767px) {
+  .leaflet-container {
+    width: 85vw;
+  }
 }
