@@ -78,6 +78,7 @@ export const GalleryImage = styled.div`
   background-repeat: no-repeat;
   background-size: cover;
   transition: 0.5s;
+  border-radius: 5px;
 
   @media (max-width: 768px) {
     width: 98%;
