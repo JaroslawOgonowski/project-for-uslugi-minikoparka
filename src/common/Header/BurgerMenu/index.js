@@ -3,7 +3,7 @@ import { BurgerButton, BurgerDiv, BurgerSpan, Item, Label, NavList, StyledLink }
 
 export const BurgerMenu = () => {
 
-  const [open, setOpen] = useState(false);
+  const [open, setOpen] = useState(true);
   const changeOpen = () => {
     if (window.innerWidth < 767) { setOpen(!open) }
     else return;
