@@ -27,7 +27,7 @@ export const Excavator = () => {
           Model E19 można przewozić na przyczepach o ładowności do 1900 kg,
           a ich transport dodatkowo ułatwiają nowe punkty zaczepu.
 
-          <ul> Ważne dane techniczne:
+          <ul> Ważne dla Państwa dane techniczne:
             <li>wysokość podnoszenia [mm]	2693</li>
             <li>głębokość kopania [mm]	2565</li>
             <li>siła kopiąca [kN]	20.80</li>
