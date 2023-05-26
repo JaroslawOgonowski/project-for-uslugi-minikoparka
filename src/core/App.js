@@ -10,6 +10,7 @@ import { Footer } from "../common/Footer";
 import { Services } from "../features/Services";
 import { Realization } from "../features/Realization";
 import { Location } from "../features/Location";
+import { Excavator } from "../features/Excavator";
 
 function App() {
   return (
@@ -22,7 +23,7 @@ function App() {
           <StyledSwitch>
             <Route path="/o-nas"><AboutUs /></Route>
             <Route path="/uslugi"><Services /></Route>
-            <Route path="/minikoparka"></Route>
+            <Route path="/minikoparka"><Excavator/></Route>
             <Route path="/realizacje"><Realization /></Route>
             <Route path="/lokalizacja"><Location /></Route>
             <Route path="/kontakt"><Contact /></Route>
