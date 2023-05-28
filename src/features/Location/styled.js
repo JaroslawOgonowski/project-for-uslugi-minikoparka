@@ -20,9 +20,10 @@ export const StyledLocation = styled.article`
 		  transform: translateX(0);
   	}
   }  
+`
 
-  @media(max-width:767px) {
-    margin: 0 16px ;
-    max-width: 100%;
-  }
+export const Content = styled.div`
+margin: 0 16px ;
+max-width: 95%;
+text-align: center;
 `
