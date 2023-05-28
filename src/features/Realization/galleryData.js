@@ -4,23 +4,23 @@ export const galleryData =
   [
     {
       id: nanoid(),
-      firstURL: "https://scontent.fwaw3-2.fna.fbcdn.net/v/t39.30808-6/336177416_602899761700866_7113642657783956494_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=lrKKF3poq8UAX8pF5ME&_nc_ht=scontent.fwaw3-2.fna&oh=00_AfDHPGPokMoxV9O-h17bnmHyCr0VXqrjDQK9v-siScHZ6Q&oe=6470DCC1",
-      secondURL: "https://scontent.fwaw3-1.fna.fbcdn.net/v/t39.30808-6/336062022_750099453136611_3234836029074040927_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=palY72zTwp0AX9nCBlw&_nc_ht=scontent.fwaw3-1.fna&oh=00_AfAZtdmcSk6MzibJKMvc4-PtHYYjOWQ6uDb_gMDsJIv17Q&oe=647146B6",
-      thirdURL: "https://scontent.fwaw3-2.fna.fbcdn.net/v/t39.30808-6/335700522_185681767545847_5793777658634110117_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=R92S-JktIBoAX-ys_MS&_nc_ht=scontent.fwaw3-2.fna&oh=00_AfBhiZ412KHzacdYuEwaVlX6GAs704Qp7qKGn3wjPF3LGg&oe=6470D4C4",
+      firstURL: "https://scontent.fwaw3-2.fna.fbcdn.net/v/t39.30808-6/336177416_602899761700866_7113642657783956494_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=7_UDteXPQEMAX8r-tdL&_nc_ht=scontent.fwaw3-2.fna&oh=00_AfAiP3G7qHmz8ZggMn1F-s-XjsVJUiUI_11ksKO4rHVO5w&oe=6478C5C1",
+      secondURL: "https://scontent.fwaw3-1.fna.fbcdn.net/v/t39.30808-6/336062022_750099453136611_3234836029074040927_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=9BNY77lfIwEAX8fzm4z&_nc_ht=scontent.fwaw3-1.fna&oh=00_AfAYmBGUYi62reT5l6m6kLtUpIa0dBce8t8KAXKKsuRxlQ&oe=64773576",
+      thirdURL: "https://scontent.fwaw3-2.fna.fbcdn.net/v/t39.30808-6/335700522_185681767545847_5793777658634110117_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=9Afj7C5FDiAAX8K8LcK&_nc_ht=scontent.fwaw3-2.fna&oh=00_AfAOmk-KKq6ZRXYF-9-XOXXWhijmbVNtZYLt0y_YdI2lRA&oe=6478BDC4",
       content: "przyłącze wodne"
     },
     {
       id: nanoid(),
-      firstURL: "https://scontent.fwaw3-2.fna.fbcdn.net/v/t39.30808-6/330334969_1890946944607418_8496560772902412169_n.jpg?stp=dst-jpg_s600x600&_nc_cat=111&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=7lmLkAeFWNQAX9pIIHL&_nc_oc=AQk2yzS8Qjl_jGP_lshmUUX07x8lv-Fc_Keof041rnK_5rPvW85NUqfxXjBlJxN98Ss&_nc_ht=scontent.fwaw3-2.fna&oh=00_AfAv-NeSTzLIMaz98WbLiq4L4wA4qx2ZcBqnD3ULdhHc4g&oe=64713437",
-      secondURL: "https://scontent.fwaw3-1.fna.fbcdn.net/v/t39.30808-6/330276030_877384560185075_8786835016775233460_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=dgw0pRN2w1YAX9MiIcZ&_nc_ht=scontent.fwaw3-1.fna&oh=00_AfCeqkvvrUIpga59Re_WZfHV0Kx3MfxLIt_wjfqKwcUU-A&oe=6470AAF2",
-      thirdURL: "https://scontent.fwaw3-2.fna.fbcdn.net/v/t39.30808-6/333029656_741865064130016_5027857388005814713_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=9B0Lrl0btd4AX8NX5Wn&_nc_ht=scontent.fwaw3-2.fna&oh=00_AfCpiGDGY3XDslHYDgErqGoSGZsaFptZm_4PuihRpv-tvA&oe=64711030",
+      firstURL: "https://scontent.fwaw3-2.fna.fbcdn.net/v/t39.30808-6/330334969_1890946944607418_8496560772902412169_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=JgtTfJVDoJAAX-cI_A6&_nc_ht=scontent.fwaw3-2.fna&oh=00_AfDUjL2arP1_mMvTj9ZqZGMtUGv0KfttfdZudYUVuNfIGw&oe=647722F7",
+      secondURL: "https://scontent.fwaw3-1.fna.fbcdn.net/v/t39.30808-6/330276030_877384560185075_8786835016775233460_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=ARw7X8GMLLUAX_0Dvoz&_nc_ht=scontent.fwaw3-1.fna&oh=00_AfD5RQUGchJbD_GjTnC-10WquBbxQRpIvyyV5pgutQfR1Q&oe=647893F2",
+      thirdURL: "https://scontent.fwaw3-2.fna.fbcdn.net/v/t39.30808-6/333029656_741865064130016_5027857388005814713_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=M1Wz2N2VBI0AX-V7gez&_nc_ht=scontent.fwaw3-2.fna&oh=00_AfCaBIr9HuYlMimpRqJATmiXBGCtCNDfaiWLFEzxrW1Nlg&oe=6478F930",
       content: "Szeregowiec który po kilkudziesięciu latach osiadł w gruncie razem z kanalizacją, częściowo wykonaną z kamionki i żeliwa. Spadek w niewłaściwym kierunki wynosił aż 5.5 %. Podjęte działania polegały na całkowitej przebudowie i wymianie rur na zgodne ze sztuką."
     },
     {
       id: nanoid(),
-      firstURL: "https://scontent.fwaw3-1.fna.fbcdn.net/v/t39.30808-6/322538581_1223319775271266_81388027720042951_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=vMr5Vay5oCYAX-tAlBU&_nc_ht=scontent.fwaw3-1.fna&oh=00_AfAn1HjwbksiUVOk3xqcw4lGfHvHa-0ne6Gg60NGHuJIpA&oe=64717E1F",
-      secondURL: "https://scontent.fwaw3-2.fna.fbcdn.net/v/t39.30808-6/323452124_1629141414167638_7652209298330298294_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=BbdkqomBVAQAX-bXfwV&_nc_ht=scontent.fwaw3-2.fna&oh=00_AfB5PWcNmmwPXXLgv3KTFPMhrtskAptyV2dcnkClVjWxpQ&oe=6470B142",
-      thirdURL: "https://scontent.fwaw3-1.fna.fbcdn.net/v/t39.30808-6/306914064_519980106793908_8105107826025051042_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=UqLEm0ewVPcAX-YtlPg&_nc_ht=scontent.fwaw3-1.fna&oh=00_AfBYUG7SP_oqyiColpTRAXaAqWS902wdzUt0eCiZDxwCmw&oe=6470706A",
+      firstURL: "https://scontent.fwaw3-1.fna.fbcdn.net/v/t39.30808-6/322538581_1223319775271266_81388027720042951_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=Qft8Aen546EAX98v99N&_nc_ht=scontent.fwaw3-1.fna&oh=00_AfBMpMc2kt0jlSJ_-GTeNdSEFTlPsXIB6axYqj1xptibFQ&oe=64776CDF",
+      secondURL: "https://scontent.fwaw3-2.fna.fbcdn.net/v/t39.30808-6/323452124_1629141414167638_7652209298330298294_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=-PZh0FdQ7EkAX-hh5hl&_nc_ht=scontent.fwaw3-2.fna&oh=00_AfBsjmhQAyMXmQg4_apV2m5ysaMfzSh0J058X124gXqMcg&oe=64789A42",
+      thirdURL: "https://scontent.fwaw3-1.fna.fbcdn.net/v/t39.30808-6/306914064_519980106793908_8105107826025051042_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=3d3T3zQoyqAAX9FnC37&_nc_ht=scontent.fwaw3-1.fna&oh=00_AfCWctIcAvbep_Mmd2CeZLGx699OrRHx44JUDytksV2UMQ&oe=6478596A",
       content: "Pierwsze wykopy pod ławy fundamentowe w tym roku za nami!"
     },
     {
