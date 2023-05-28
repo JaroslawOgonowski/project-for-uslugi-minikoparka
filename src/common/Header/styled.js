@@ -126,6 +126,10 @@ export const SpanOrangeText = styled.span`
     width:48px;
   }
 
+  @media (max-width: 372px) {
+    margin-bottom: 0;
+  }
+
   @keyframes logoAnimation {
 	0% {
 		transform: translateX(-18px);
