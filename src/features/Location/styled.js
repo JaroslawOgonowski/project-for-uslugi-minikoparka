@@ -23,5 +23,6 @@ export const StyledLocation = styled.article`
 
   @media(max-width:767px) {
     margin: 0 16px ;
+    max-width: 100%;
   }
 `
