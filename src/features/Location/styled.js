@@ -10,14 +10,18 @@ export const StyledLocation = styled.article`
   animation: articleAnimation 2s ease normal forwards;
   
   @keyframes articleAnimation {
-	0% {
+	  0% {
 		opacity: 0;
 		transform: translateX(250px);
-	}
+	  } 
 
-	100% {
-		opacity: 1;
-		transform: translateX(0);
-	}
-}
+	  100% {
+	  	opacity: 1;
+		  transform: translateX(0);
+  	}
+  }  
+
+  @media(max-width:767px) {
+    margin: 0 16px ;
+  }
 `

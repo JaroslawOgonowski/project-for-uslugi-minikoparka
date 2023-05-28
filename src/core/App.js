@@ -5,7 +5,6 @@ import { GlobalStyle } from "./GlobalStyle";
 import { AboutUs } from "../features/AboutUs";
 import { Contact } from "../features/Contact";
 import { Main } from "../common/Main";
-import { StyledSwitch } from "./styled";
 import { Footer } from "../common/Footer";
 import { Services } from "../features/Services";
 import { Realization } from "../features/Realization";
@@ -20,7 +19,7 @@ function App() {
         <Header />
         <Main>
           <BurgerMenu />
-          <StyledSwitch>
+          <Switch>
             <Route path="/o-nas"><AboutUs /></Route>
             <Route path="/uslugi"><Services /></Route>
             <Route path="/minikoparka"><Excavator/></Route>
@@ -29,7 +28,7 @@ function App() {
             <Route path="/kontakt"><Contact /></Route>
             <Route path="/">
               <Redirect to="/o-nas" /></Route>
-          </StyledSwitch>
+          </Switch>
         </Main> 
         <Footer />
       </HashRouter >
