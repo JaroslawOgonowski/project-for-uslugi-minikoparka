@@ -18,6 +18,13 @@ export const BurgerButton = styled.button`
   display: flex;
   justify-content: center;
   align-content: center;
+  transition: 0.5s;
+
+  &:hover{
+    -webkit-box-shadow: 0px 0px 6px 2px rgba(202, 192, 192, 1);
+    -moz-box-shadow: 0px 0px 6px 2px rgba(202, 192, 192, 1);
+    box-shadow: 0px 0px 6px 2px rgba(202, 192, 192, 1);
+  }
 `;
 
 export const BurgerDiv = styled.div`
@@ -76,6 +83,9 @@ export const NavList = styled.nav`
   align-items: center;
   gap: 20px;
   list-style: none;
+  -webkit-box-shadow: 0px 0px 6px 2px rgba(49, 46, 46, 1);
+  -moz-box-shadow: 0px 0px 6px 2px rgba(49, 46, 46, 1);
+  box-shadow: 0px 0px 6px 2px rgba(49, 46, 46, 1);
 
   @media (max-width: 767px) {
   width: 100%;

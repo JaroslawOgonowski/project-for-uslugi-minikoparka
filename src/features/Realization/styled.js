@@ -79,6 +79,9 @@ export const GalleryImage = styled.div`
   background-size: cover;
   transition: 0.5s;
   border-radius: 5px;
+  -webkit-box-shadow: 0px 0px 6px 2px rgba(49, 46, 46, 1);
+  -moz-box-shadow: 0px 0px 6px 2px rgba(49, 46, 46, 1);
+  box-shadow: 0px 0px 6px 2px rgba(49, 46, 46, 1);
 
   @media (max-width: 768px) {
     width: 98%;
@@ -88,6 +91,7 @@ export const GalleryImage = styled.div`
   &:hover{
     @media (min-width: 768px) {
       transform: scale(1.05);
+      filter: brightness(1.2);
     }
   }
 `;
