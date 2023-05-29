@@ -26,6 +26,7 @@ export const Excavator = () => {
       <h3>Nasz sprzęt 🦺</h3>
       <Details>
         <div>
+          <h3>Minikoparka</h3>
           <div>
             Bobcat E19 w wersji long, wyposażony w łyżki kopiące 25, 40, 50, 60 cm, oraz łyżkę skarpową hydrauliczną 100 cm, ponadto dysponujemy specjalistycznymi grabiami o szerokości 120 cm.
             <ul> Ważne dla Państwa dane techniczne:
@@ -38,8 +39,9 @@ export const Excavator = () => {
               <li>szerokość całkowita [mm]	980</li>
             </ul>
           </div>
+          <h3>Zagęszczarka rewersyjna</h3>
           <div>
-            Zagęszczarka rewersyjna Bomag BPR 55/65
+            Bomag BPR 55/65
             <ul> </ul>
             <li>szerokość robocza 650 mm</li>
             <li>ciężar 450 kg</li>
