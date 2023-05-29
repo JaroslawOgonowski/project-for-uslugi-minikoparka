@@ -22,7 +22,7 @@ export const Header = () => {
           <LeftBox>
             <Owner>
               {(width < 372) ? null : <Logo src={koparka} />}
-              {(width < 435) ? null : "Radosław Urbaniak"}
+              {(width < 435) ? null : <strong>Radosław Urbaniak</strong>}
               {(width < 700) ? null :
                 <StyledLink href="tel:+48.513651750" title="kontakt telefoniczny">
                   <Phone src={phone} alt="" />

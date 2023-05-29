@@ -47,10 +47,16 @@ export const StyledLink = styled.a`
   display: flex;
   align-content: center;
   color: black;
+  transition: 0.5s;
+  font-weight: 600;
 
   @media (max-width: 420px) {
     font-size: 14px;
     align-items: center;
+  }
+  
+  &:hover{
+    transform: scale(1.02);
   }
 `;
 
@@ -113,8 +119,8 @@ export const SpanOrangeText = styled.span`
   font-size: 36px;
   color: rgba(236, 155, 25, 1);
   `;
-  
-  export const Logo = styled.img`
+
+export const Logo = styled.img`
   width: 60px;
   border-radius: 5px;
   align-self: flex-end;
