@@ -7,7 +7,7 @@ export const galleryData =
       firstURL: "https://scontent.fwaw3-2.fna.fbcdn.net/v/t39.30808-6/336177416_602899761700866_7113642657783956494_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=7_UDteXPQEMAX8r-tdL&_nc_ht=scontent.fwaw3-2.fna&oh=00_AfAiP3G7qHmz8ZggMn1F-s-XjsVJUiUI_11ksKO4rHVO5w&oe=6478C5C1",
       secondURL: "https://scontent.fwaw3-1.fna.fbcdn.net/v/t39.30808-6/336062022_750099453136611_3234836029074040927_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=9BNY77lfIwEAX8fzm4z&_nc_ht=scontent.fwaw3-1.fna&oh=00_AfAYmBGUYi62reT5l6m6kLtUpIa0dBce8t8KAXKKsuRxlQ&oe=64773576",
       thirdURL: "https://scontent.fwaw3-2.fna.fbcdn.net/v/t39.30808-6/335700522_185681767545847_5793777658634110117_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=9Afj7C5FDiAAX8K8LcK&_nc_ht=scontent.fwaw3-2.fna&oh=00_AfAOmk-KKq6ZRXYF-9-XOXXWhijmbVNtZYLt0y_YdI2lRA&oe=6478BDC4",
-      content: "przyłącze wodne"
+      content: "Przyłącze wodne"
     },
     {
       id: nanoid(),
@@ -21,7 +21,7 @@ export const galleryData =
       firstURL: "https://scontent.fwaw3-1.fna.fbcdn.net/v/t39.30808-6/322538581_1223319775271266_81388027720042951_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=Qft8Aen546EAX98v99N&_nc_ht=scontent.fwaw3-1.fna&oh=00_AfBMpMc2kt0jlSJ_-GTeNdSEFTlPsXIB6axYqj1xptibFQ&oe=64776CDF",
       secondURL: "https://scontent.fwaw3-2.fna.fbcdn.net/v/t39.30808-6/323452124_1629141414167638_7652209298330298294_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=-PZh0FdQ7EkAX-hh5hl&_nc_ht=scontent.fwaw3-2.fna&oh=00_AfBsjmhQAyMXmQg4_apV2m5ysaMfzSh0J058X124gXqMcg&oe=64789A42",
       thirdURL: "https://scontent.fwaw3-1.fna.fbcdn.net/v/t39.30808-6/306914064_519980106793908_8105107826025051042_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=3d3T3zQoyqAAX9FnC37&_nc_ht=scontent.fwaw3-1.fna&oh=00_AfCWctIcAvbep_Mmd2CeZLGx699OrRHx44JUDytksV2UMQ&oe=6478596A",
-      content: "Pierwsze wykopy pod ławy fundamentowe w tym roku za nami!"
+      content: "Wykopy pod ławy fundamentowe."
     },
     {
       id: nanoid(),
@@ -42,7 +42,7 @@ export const galleryData =
       firstURL: "https://scontent.fwaw3-2.fna.fbcdn.net/v/t39.30808-6/306233967_514243164034269_3462763302849617725_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=tWV-FHyUSIQAX8Yzg2N&_nc_ht=scontent.fwaw3-2.fna&oh=00_AfCg2M1MowOTiUj61T9RB73PkKpSnVd7TijrNiYUCactlQ&oe=6477A7F4",
       secondURL: "https://scontent.fwaw3-2.fna.fbcdn.net/v/t39.30808-6/281269497_549106393435030_2090449901508077929_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=auzvsaZ7zKsAX-4k5yV&_nc_ht=scontent.fwaw3-2.fna&oh=00_AfAfFd9g3cY3WRdWGHYwdl7Lj3bCHhB3Z1LMaWGq1n55_w&oe=6477BCE1",
       thirdURL: "https://scontent.fwaw3-1.fna.fbcdn.net/v/t39.30808-6/281153910_549106463435023_8381773666295755572_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=CzU9K3k8-DEAX9qm9ld&_nc_ht=scontent.fwaw3-1.fna&oh=00_AfCb2VUSStsEgOomZXiN_hMPwsfgeyFYOFUN7O3pQvl1vA&oe=647795AC",
-      content: "odkrywka starszych fundamentów pod izolację i kabel energetyczny"
+      content: "Odkrywka starszych fundamentów pod izolację i kabel energetyczny"
     },
     {
       id: nanoid(),
