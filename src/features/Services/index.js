@@ -11,9 +11,8 @@ export const Services = () => {
             <MainItem>montaż instalacji wodnych i systemów kanalizacyjnych</MainItem>
             <MainItem>przyłącza wodociągowe</MainItem>
             <MainItem>odkrywki starszych instalacji i fundamentów</MainItem>
-            <MainItem>wyrównanie i podnoszenie terenu</MainItem>
             <MainItem>prace kompleksowe przy rozpoczęciu budowy</MainItem>
-            <MainItem>budowa podjazdów garażowych i wzjazdów na teren działki</MainItem>
+            <MainItem>budowa podjazdów garażowych i wjazdów na teren działki</MainItem>
             <MainItem>przygotowanie terenu pod ogród</MainItem>
             <MainItem>
               Wykopy pod:
@@ -27,7 +26,7 @@ export const Services = () => {
                 <li>podjazdy, wyjazdy, ścieżki</li>
               </ServicesDetailsList>
             </MainItem>
-            <MainItem>wszelkie wykopy do głębokości 2.6m</MainItem>
+            <MainItem>jestesmy w stanie wykonać wykop do maksymalnej głębokości 2.6m</MainItem>
           </ServicesList>
           <Image />
         </Box>

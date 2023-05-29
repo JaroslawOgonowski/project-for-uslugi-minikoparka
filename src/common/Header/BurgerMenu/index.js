@@ -26,7 +26,7 @@ export const BurgerMenu = () => {
         <NavList open={open}>
           <StyledLink to="/o-nas"><Item onClick={() => changeOpen()}><Label>O Nas</Label></Item></StyledLink>
           <StyledLink to="/uslugi"><Item onClick={() => changeOpen()}><Label>Usługi</Label></Item></StyledLink>
-          <StyledLink to="/minikoparka"><Item onClick={() => changeOpen()}><Label>Minikoparka</Label></Item></StyledLink>
+          <StyledLink to="/minikoparka"><Item onClick={() => changeOpen()}><Label>Nasza flota</Label></Item></StyledLink>
           <StyledLink to="/realizacje"><Item onClick={() => changeOpen()}><Label>Realizacje</Label></Item></StyledLink>
           <StyledLink to="/lokalizacja"><Item onClick={() => changeOpen()}><Label>Lokalizacja</Label></Item></StyledLink>
           <StyledLink to="/kontakt"><Item onClick={() => changeOpen()}><Label>Kontakt</Label></Item></StyledLink>

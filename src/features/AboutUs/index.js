@@ -6,7 +6,7 @@ export const AboutUs = () => {
     <>
 
       <StyledArticle>
-        <Title><strong>Usługi minikoparką</strong> - kilka słów o nas</Title>
+        <Title><strong>PHU Urbaniak- usługi minikoparką</strong> - kilka słów o nas</Title>
         <Subtitle>O firmie:</Subtitle>
         Firma powstała w 2022r na bazie wieloletniego doświadczenia w branży. 
         Naszym celem jest realizacja zleceń w cenach rynkowych przy uzględnieniu najwyższej jakości, 

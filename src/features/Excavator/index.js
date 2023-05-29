@@ -5,28 +5,28 @@ import { Details } from "./styled";
 export const Excavator = () => {
   return (
     <StyledArticle>
-      <Title>Minikoparka</Title>
+      <Title>Nasza flota</Title>
       <div>
-        <strong>Czym właściwie jest minikoparka? </strong><br />
-        Rodzina koparek jednonaczyniowych hydraulicznych o masie eksploatacyjnej do 15 ton.
-        Podstawowe elementy konstrukcji są praktycznie takie same jak w typowych koparkach.
-        Wyposażone są najczęściej w podwozie gąsienicowe,
-        z przodu w niewielki lemiesz oraz mechanizm kolumny obrotu wysięgnika (ang. tzw. boom swing).
-        Są to maszyny wielofunkcyjne, uniwersalne wyposażane w wymienny osprzęt roboczy
-        (widły, nożyce, młot hydrauliczny, świder) pozwalający dostosować maszynę do charakteru pracy.
-        Powszechnie stosowane przy drobnych pracach budowlanych.
+        Oprócz maszyn transportowych w skład naszego zestawu wchodzi
+        <strong>minikoparka Bobcat E19</strong> oraz <strong>zagęszczarka rewersyjna Bomag BPR 55/65</strong>
+        wraz z osprzętem.<br />
+        <strong>Minikoparka</strong> to małe, sprawne i szybkie urządenie, które może spełniać swoje funkcje
+        wszędzie tam gdzie standardowa koparka nie miałaby szans wjechać,
+        użycie jej ogranicza również zniszczenia podłoża czy ścieżek na Państwa terenie a dzięki wymiennym łyżkom kopiącym
+        rozmiar wykopu jest optymalny do zleconej pracy. <br />
+        <strong>Zagęszczarka rewersyjna</strong> jest dobrym rozwiązaniem zwłaszcza wtedy,
+        gdy potrzeba ubić grunt na dużej głębokości.
+        Jest także niezastąpiona wszędzie tam, gdzie trzeba manewrować urządzeniem na niewielkiej powierzchni.
+        Często też stosuje się ją podczas ubijania ziemi, na której powstały rowy i wykopy.
+        Zagęszczarkę dwukierunkową można również z powodzeniem obsługiwać wszędzie tam, gdzie ważne jest,
+        by stworzyć odpowiednią aranżację krajobrazu na działce lub w ogrodzie.
+        Ponadto można dzięki nim ubić grunt, by stworzyć sztuczny wał, czy nasyp.
+        Także boiska, grunt pod kostkę brukową czy wjazdy tworzy się z wykorzystaniem zagęszczarki gruntu dwukierunkowej.
       </div>
       <h3>Nasz sprzęt 🦺</h3>
       <Details>
         <div>
-          <strong>Minikoparka Bobcat E19</strong>
-          wybierana jest przez firmy, którzy oczekują najwyższej siły kopania na łyżce - prawie 21 kN,
-          oraz prostej i niezawodnej konstrukcji. E19 stanowi wyjątkowe połączenie najwyższej w swojej klasie siły na łyżce,
-          zasięgu roboczego, płynności pracy osprzętu, wydajności hydraulicznej i krótkiego czasu cykli z niezwykłą wytrzymałością,
-          a także zapewniaj przestronne i komfortowe otoczenie operatora oraz łatwy dostęp do elementów wymagających serwisowania.
-          Model E19 można przewozić na przyczepach o ładowności do 1900 kg,
-          a ich transport dodatkowo ułatwiają nowe punkty zaczepu.
-
+          Bobcat E19 w wersji long, wyposażony w łyżki kopiące 25, 40, 50, 60 cm, oraz łyżkę skarpową hydrauliczną 100 cm, ponadto dysponujemy specjalistycznymi grabiami o szerokości 120 cm.
           <ul> Ważne dla Państwa dane techniczne:
             <li>wysokość podnoszenia [mm]	2693</li>
             <li>głębokość kopania [mm]	2565</li>
@@ -37,7 +37,7 @@ export const Excavator = () => {
             <li>szerokość całkowita [mm]	980</li>
           </ul>
         </div>
-        <img src="https://scontent.fwaw3-2.fna.fbcdn.net/v/t39.30808-6/273308780_480776623601341_4372948909831116739_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=804Id5gxdeAAX_OKLBK&_nc_ht=scontent.fwaw3-2.fna&oh=00_AfC6reFL3zfDaoz9r28cW8EaKfgzglyobbNbpWBb1BBdxA&oe=647558A8" alt="" width="300px" height="450px"/>
+        <img src="https://scontent.fwaw3-2.fna.fbcdn.net/v/t39.30808-6/273308780_480776623601341_4372948909831116739_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=804Id5gxdeAAX_OKLBK&_nc_ht=scontent.fwaw3-2.fna&oh=00_AfC6reFL3zfDaoz9r28cW8EaKfgzglyobbNbpWBb1BBdxA&oe=647558A8" alt="" width="300px" height="450px" />
       </Details>
     </StyledArticle >
   );
