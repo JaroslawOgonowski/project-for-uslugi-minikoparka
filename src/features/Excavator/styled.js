@@ -1,14 +1,37 @@
 import styled from "styled-components";
 
 export const Details = styled.div`
-width: 95%;
+width: 100%;
 display: flex;
+flex-direction: column;
 justify-content: center;
+align-content: center;
 flex: 1 1;
 gap: 16px;
+`
 
-@media (max-width: 767px){
-  flex-direction: column;
-  align-content: center;
-}
+export const MainContent = styled.div`
+line-height: 1.8;
+`
+
+export const Subtitle = styled.h3`
+font-size: 28px;
+text-align: center;
+margin-top: 60px;
+`
+
+export const Banner = styled.h4`
+width: 100%;
+height: 150px;
+display: flex;
+align-items: center;
+justify-content: center;
+background-image: url(${(props) => props.background});
+background-position-y: 50%;
+`
+
+export const BannerTitle = styled.span`
+font-size: 40px;
+background-color: #212020c9;
+border-radius: 5px;
 `
