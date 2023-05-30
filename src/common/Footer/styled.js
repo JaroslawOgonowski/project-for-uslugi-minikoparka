@@ -21,6 +21,10 @@ export const StyledParahraph = styled.p`
   font-size: 12px;
   text-transform: uppercase;
   margin-bottom: 24px;
+
+  @media (min-width: 1700px) {
+    font-size: 0.8vw;
+  }
 `;
 
 export const StyledLink = styled.a`
@@ -37,15 +41,24 @@ export const StyledLink = styled.a`
   &:hover{
       color: #ffc402ff;
     };
-  @media (max-width: 767px) {
+  
+    @media (max-width: 767px) {
     font-size: 18px;
   };
+
+  @media (min-width: 1700px) {
+    font-size: 1.8vw;
+  }
 `;
 
 export const Content = styled.div`
   margin-top: 24px;
   font-weight: 400;
   font-size: 18px;
+
+  @media (min-width: 1700px) {
+    font-size: 1.1vw;
+  }
 `;
 
 export const SocialLinks = styled.div`
@@ -75,6 +88,11 @@ export const Wrapper = styled.div`
   max-width: 1216px;
   margin: auto;
   margin-bottom: 109px;
+
+  @media (min-width: 1700px) {
+    max-width: 100%;
+    margin-left: 4vw;
+  }
 
   &&{
     ${({ animation }) => animation && css`
@@ -119,8 +137,20 @@ export const Wrapper = styled.div`
 export const PhoneIcon = styled(Phone)`
   width: 40px;
   height: 40px;
+
+  @media (min-width: 1700px) {
+    width: 2vw;
+    height: 2vw;
+    margin-right: 0.5vw;
+  }
 `
 export const MailIcon = styled(Mail)`
   width: 40px;
   height: 40px;
+
+  @media (min-width: 1700px) {
+    width: 2vw;
+    height: 2vw;
+    margin-right: 0.5vw;
+  }
 `
