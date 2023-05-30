@@ -6,10 +6,14 @@ export const Wrapper = styled.header`
   color: #0a0909;
   background: rgb(255,255,255);
   background: linear-gradient(0deg, rgba(255,255,255,1) 65%, rgba(252,156,0,1) 65%, rgba(250,154,0,1) 80%, rgba(255,255,255,0.9920343137254902) 80%);
+
+  @media (min-width: 1700px) {
+    height: 5vw;
+  }
 `;
 
 export const HeaderContent = styled.div`
-  max-width: 1360px;
+  max-width: 100%;
   height: 100%;
   margin: 0 auto;
   display: flex;
@@ -21,6 +25,7 @@ export const HeaderContent = styled.div`
     justify-content: space-evenly;
     gap: 0;
   };  
+
 `;
 
 export const LeftBox = styled.div`
@@ -40,6 +45,10 @@ export const Owner = styled.div`
   @media (max-width: 371px) {
     margin-bottom: 16px;
   };
+
+  @media (min-width: 1700px) {
+    font-size: 1.2vw;
+  }
 `;
 
 export const StyledLink = styled.a`
@@ -66,6 +75,11 @@ export const Phone = styled.img`
 
   @media (max-width: 385px) {
     width: 24px;
+  }
+
+  @media (min-width: 1700px) {
+    width: 2vw;
+    margin-left: 1vw;
   }
 `;
 
@@ -100,16 +114,29 @@ export const Border = styled.div`
   align-items: center;
   justify-content: space-between;
   background-color: rgba(252,156,0,1);
+
+  @media (min-width: 1700px) {
+    height: 5vw;
+    width: 6vw;
+    justify-content: space-evenly;
+  }
 `;
 
 export const SpanScribe = styled.span`
   font-family: 'Ms Madi', cursive;
   font-size: 36px;
+
+  @media (min-width: 1700px) {
+    font-size: 2vw;
+  }
 `;
 
 export const SpanBlackText = styled.span`
   font-family: 'Black Ops One', cursive;
-  font-size: 36px;
+  
+  @media (min-width: 1700px) {
+    font-size: 2vw;
+  }
 `;
 
 export const SpanOrangeText = styled.span`
@@ -118,6 +145,11 @@ export const SpanOrangeText = styled.span`
   align-self: flex-end;
   font-size: 36px;
   color: rgba(236, 155, 25, 1);
+
+  @media (min-width: 1700px) {
+    font-size: 2vw;
+    margin-left: 0.2vw;
+  }
   `;
 
 export const Logo = styled.img`
@@ -134,6 +166,10 @@ export const Logo = styled.img`
 
   @media (max-width: 372px) {
     margin-bottom: 0;
+  }
+
+  @media (min-width: 1700px) {
+    width: 3vw
   }
 
   @keyframes logoAnimation {
