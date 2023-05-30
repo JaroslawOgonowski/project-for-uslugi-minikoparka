@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/project-for-uslugi-minikoparka/static/css/main.90281728.css",
-    "main.js": "/project-for-uslugi-minikoparka/static/js/main.d33681c6.js",
+    "main.js": "/project-for-uslugi-minikoparka/static/js/main.9d61c5ff.js",
     "static/js/787.07473dc0.chunk.js": "/project-for-uslugi-minikoparka/static/js/787.07473dc0.chunk.js",
     "static/media/Koparka.png": "/project-for-uslugi-minikoparka/static/media/Koparka.03ab24726ab1618a702d.png",
     "static/media/RadosławUrbaniak.jpg": "/project-for-uslugi-minikoparka/static/media/RadosławUrbaniak.6fbec964ca79de03176b.jpg",
@@ -10,11 +10,11 @@
     "static/media/email-svgrepo-com.svg": "/project-for-uslugi-minikoparka/static/media/email-svgrepo-com.0a602da8dc66e9a7607e396b26da2db6.svg",
     "static/media/Facebook_black.svg": "/project-for-uslugi-minikoparka/static/media/Facebook_black.4fcd2e5a629788c48eff881bf1586f1a.svg",
     "main.90281728.css.map": "/project-for-uslugi-minikoparka/static/css/main.90281728.css.map",
-    "main.d33681c6.js.map": "/project-for-uslugi-minikoparka/static/js/main.d33681c6.js.map",
+    "main.9d61c5ff.js.map": "/project-for-uslugi-minikoparka/static/js/main.9d61c5ff.js.map",
     "787.07473dc0.chunk.js.map": "/project-for-uslugi-minikoparka/static/js/787.07473dc0.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.90281728.css",
-    "static/js/main.d33681c6.js"
+    "static/js/main.9d61c5ff.js"
   ]
 }
