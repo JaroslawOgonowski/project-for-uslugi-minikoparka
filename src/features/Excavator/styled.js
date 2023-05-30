@@ -13,13 +13,6 @@ gap: 16px;
 export const MainContent = styled.div`
 line-height: 1.8;
 `
-
-export const Subtitle = styled.h3`
-font-size: 28px;
-text-align: center;
-margin-top: 60px;
-`
-
 export const Banner = styled.h4`
 width: 100%;
 height: 150px;
@@ -34,4 +27,5 @@ export const BannerTitle = styled.span`
 font-size: 40px;
 background-color: #212020c9;
 border-radius: 5px;
+text-align: center;
 `
