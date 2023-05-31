@@ -1,7 +1,7 @@
 import styled, { css } from "styled-components";
 import { ReactComponent as Phone } from "./images/phone-number-svgrepo-com.svg";
 import { ReactComponent as Mail } from "./images/email-svgrepo-com.svg";
-
+import { ReactComponent as Facebook } from "./images/Facebook_black.svg";
 export const StyledPageFooter = styled.footer`
   margin-top: 120px;
   max-width: 691px;
@@ -14,6 +14,10 @@ export const StyledPageFooter = styled.footer`
   @media (max-width: 767px) {
     margin: 60px 16px 0 16px;
   };
+
+  @media (min-width: 1700px) {
+    max-width: 40%;
+  }
 `;
 
 export const StyledParahraph = styled.p`
@@ -145,6 +149,16 @@ export const PhoneIcon = styled(Phone)`
   }
 `
 export const MailIcon = styled(Mail)`
+  width: 40px;
+  height: 40px;
+
+  @media (min-width: 1700px) {
+    width: 2vw;
+    height: 2vw;
+    margin-right: 0.5vw;
+  }
+`
+export const FacebookIcon = styled(Facebook)`
   width: 40px;
   height: 40px;
 

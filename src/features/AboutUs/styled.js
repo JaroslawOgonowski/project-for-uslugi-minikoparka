@@ -9,6 +9,10 @@ export const Image = styled.img`
     width: 40%;
     height: 40%;
   }
+
+  @media (min-width: 1700px) {
+    height: 22vw;
+  }
 `
 
 export const StyledArticle = styled.article`
@@ -17,7 +21,7 @@ export const StyledArticle = styled.article`
   flex-direction: column;
   margin: 0 16px;
   animation: articleAnimation 2s ease normal forwards;
-  
+  font-size: 1.5vw;
   @keyframes articleAnimation {
 	0% {
 		opacity: 0;
@@ -38,18 +42,23 @@ export const Title = styled.h2`
   @media (max-width: 767px) {
     font-size: 22px;
   }
+
+  @media (min-width: 1700px) {
+    font-size: 2.5vw;
+  }
 `
 export const Subtitle = styled.h3`
+font-size: 2vw;
 `
 
 export const Content = styled.div`
   display: flex;
-  gap: 16px;
+  gap: 2vw;
   align-items: center;
 
   @media (max-width: 767px) {
     flex-direction: column;
     margin: 0 16px 16px 16px;
-   flex-wrap:wrap
+    flex-wrap:wrap
   }
 `

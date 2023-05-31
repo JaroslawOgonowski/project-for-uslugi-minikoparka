@@ -1,4 +1,4 @@
-import { Content, StyledLink, PhoneIcon, SocialLink, SocialLinks, StyledPageFooter, StyledParahraph, Wrapper, MailIcon } from "./styled";
+import { Content, StyledLink, PhoneIcon, SocialLink, SocialLinks, StyledPageFooter, StyledParahraph, Wrapper, MailIcon, FacebookIcon } from "./styled";
 import { ReactComponent as Facebook } from "./images/Facebook_black.svg";
 import { useState } from "react";
 
@@ -21,7 +21,7 @@ export const Footer = () => {
           Doradzimy, odpowiemy na wszelkie pytania i dostosujemy usługę do twoich potrzeb!
         </Content>
         <SocialLinks>
-          <SocialLink href="https://www.facebook.com/mini.zyrardow/"><Facebook /></SocialLink>
+          <SocialLink href="https://www.facebook.com/mini.zyrardow/"><FacebookIcon /></SocialLink>
         </SocialLinks>
       </StyledPageFooter>
     </Wrapper>
