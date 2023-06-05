@@ -8,6 +8,15 @@ import g2p3 from "./images/g2p3.jpg"
 import g3p1 from "./images/g3p1.jpg"
 import g3p2 from "./images/g3p2.jpg"
 import g3p3 from "./images/g3p3.jpg"
+import g4p1 from "./images/g4p1.jpg"
+import g4p2 from "./images/g4p2.jpg"
+import g4p3 from "./images/g4p3.jpg"
+import g5p1 from "./images/g5p1.jpg"
+import g5p2 from "./images/g5p2.jpg"
+import g5p3 from "./images/g5p3.jpg"
+import g6p1 from "./images/g6p1.jpg"
+import g6p2 from "./images/g6p2.jpg"
+import g6p3 from "./images/g6p3.jpg"
 export const galleryData =
   [
     {
@@ -33,23 +42,23 @@ export const galleryData =
     },
     {
       id: nanoid(),
-      firstURL: "https://scontent.fwaw3-2.fna.fbcdn.net/v/t39.30808-6/314885754_564705915654660_5922818466914458236_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=PU3sqTRQylIAX-eUU7f&_nc_ht=scontent.fwaw3-2.fna&oh=00_AfC3C7E4Tt_Mv8A9cjHlEyA7-FJi-FrgIjzpqnDZQMqLgQ&oe=64781D91",
-      secondURL: "https://scontent.fwaw3-2.fna.fbcdn.net/v/t39.30808-6/314886331_564706005654651_7609928715771762162_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=G6IJ27btUY0AX_S6DEI&_nc_ht=scontent.fwaw3-2.fna&oh=00_AfAUTzg8ItLV71tBaX1R-s3WE9shNNJyfWvLO_CsNkE4xQ&oe=64786A48",
-      thirdURL: "https://scontent.fwaw3-1.fna.fbcdn.net/v/t39.30808-6/313337612_564706165654635_7029863057473138574_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=QDmtcTDF_xcAX9RHGFL&_nc_ht=scontent.fwaw3-1.fna&oh=00_AfDPsMbC72AnTFcx7VHch8P5gKg08Eh60a658j35-FtH6A&oe=64781A86",
+      firstURL: g4p1,
+      secondURL: g4p2,
+      thirdURL:  g4p3,
       content: "Budujemy przyłącza wodno-kanalizacyjne!"
     },
     {
       id: nanoid(),
-      firstURL: "https://scontent.fwaw3-2.fna.fbcdn.net/v/t39.30808-6/306968389_519980250127227_3469084998809029613_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=pw7mNr9aMroAX9apO-f&_nc_ht=scontent.fwaw3-2.fna&oh=00_AfAWD8vnCB-Oy3Mtw7qLtyzNLAxtlkesd7bO5z3IIPAF_g&oe=647845D0",
-      secondURL: "https://scontent.fwaw3-1.fna.fbcdn.net/v/t39.30808-6/306937162_519980340127218_5566548039719440068_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=fnOLOdLgDbUAX-SP107&_nc_ht=scontent.fwaw3-1.fna&oh=00_AfDYlchDaPAqjncXbQmYQiQvz40vPBFyHfS8FoouTYoC2Q&oe=64780364",
-      thirdURL: "https://scontent.fwaw3-1.fna.fbcdn.net/v/t39.30808-6/306922360_519980390127213_6116165328238555625_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=Z8dVyDKY_lAAX-Vr40i&_nc_ht=scontent.fwaw3-1.fna&oh=00_AfBHUliYsemypu6-Ow1JlPPvGguwsgWaPKmHBUcep7RnjQ&oe=6478B884",
+      firstURL:  g5p1,
+      secondURL: g5p2,
+      thirdURL: g5p3,
       content: "Przyłącze kanalizacyjne z odprowadzeniem do szczelnego zbiornika"
     },
     {
       id: nanoid(),
-      firstURL: "https://scontent.fwaw3-2.fna.fbcdn.net/v/t39.30808-6/306233967_514243164034269_3462763302849617725_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=tWV-FHyUSIQAX8Yzg2N&_nc_ht=scontent.fwaw3-2.fna&oh=00_AfCg2M1MowOTiUj61T9RB73PkKpSnVd7TijrNiYUCactlQ&oe=6477A7F4",
-      secondURL: "https://scontent.fwaw3-2.fna.fbcdn.net/v/t39.30808-6/281269497_549106393435030_2090449901508077929_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=auzvsaZ7zKsAX-4k5yV&_nc_ht=scontent.fwaw3-2.fna&oh=00_AfAfFd9g3cY3WRdWGHYwdl7Lj3bCHhB3Z1LMaWGq1n55_w&oe=6477BCE1",
-      thirdURL: "https://scontent.fwaw3-1.fna.fbcdn.net/v/t39.30808-6/281153910_549106463435023_8381773666295755572_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=CzU9K3k8-DEAX9qm9ld&_nc_ht=scontent.fwaw3-1.fna&oh=00_AfCb2VUSStsEgOomZXiN_hMPwsfgeyFYOFUN7O3pQvl1vA&oe=647795AC",
+      firstURL: g6p1,
+      secondURL: g6p2,
+      thirdURL: g6p3,
       content: "Odkrywka starszych fundamentów pod izolację i kabel energetyczny"
     },
     {
