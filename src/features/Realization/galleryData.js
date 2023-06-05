@@ -1,26 +1,34 @@
 import { nanoid } from "nanoid";
-
+import g1p1 from "./images/g1p1.jpg"
+import g1p2 from "./images/g1p2.jpg"
+import g1p3 from "./images/g1p3.jpg"
+import g2p1 from "./images/g2p1.jpg"
+import g2p2 from "./images/g2p2.jpg"
+import g2p3 from "./images/g2p3.jpg"
+import g3p1 from "./images/g3p1.jpg"
+import g3p2 from "./images/g3p2.jpg"
+import g3p3 from "./images/g3p3.jpg"
 export const galleryData =
   [
     {
       id: nanoid(),
-      firstURL: "https://scontent.fwaw3-2.fna.fbcdn.net/v/t39.30808-6/336177416_602899761700866_7113642657783956494_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=7_UDteXPQEMAX8r-tdL&_nc_ht=scontent.fwaw3-2.fna&oh=00_AfAiP3G7qHmz8ZggMn1F-s-XjsVJUiUI_11ksKO4rHVO5w&oe=6478C5C1",
-      secondURL: "https://scontent.fwaw3-1.fna.fbcdn.net/v/t39.30808-6/336062022_750099453136611_3234836029074040927_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=9BNY77lfIwEAX8fzm4z&_nc_ht=scontent.fwaw3-1.fna&oh=00_AfAYmBGUYi62reT5l6m6kLtUpIa0dBce8t8KAXKKsuRxlQ&oe=64773576",
-      thirdURL: "https://scontent.fwaw3-2.fna.fbcdn.net/v/t39.30808-6/335700522_185681767545847_5793777658634110117_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=9Afj7C5FDiAAX8K8LcK&_nc_ht=scontent.fwaw3-2.fna&oh=00_AfAOmk-KKq6ZRXYF-9-XOXXWhijmbVNtZYLt0y_YdI2lRA&oe=6478BDC4",
+      firstURL: g1p1,
+      secondURL: g1p2,
+      thirdURL: g1p3,
       content: "Przyłącze wodne"
     },
     {
       id: nanoid(),
-      firstURL: "https://scontent.fwaw3-2.fna.fbcdn.net/v/t39.30808-6/330334969_1890946944607418_8496560772902412169_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=JgtTfJVDoJAAX-cI_A6&_nc_ht=scontent.fwaw3-2.fna&oh=00_AfDUjL2arP1_mMvTj9ZqZGMtUGv0KfttfdZudYUVuNfIGw&oe=647722F7",
-      secondURL: "https://scontent.fwaw3-1.fna.fbcdn.net/v/t39.30808-6/330276030_877384560185075_8786835016775233460_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=ARw7X8GMLLUAX_0Dvoz&_nc_ht=scontent.fwaw3-1.fna&oh=00_AfD5RQUGchJbD_GjTnC-10WquBbxQRpIvyyV5pgutQfR1Q&oe=647893F2",
-      thirdURL: "https://scontent.fwaw3-2.fna.fbcdn.net/v/t39.30808-6/333029656_741865064130016_5027857388005814713_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=M1Wz2N2VBI0AX-V7gez&_nc_ht=scontent.fwaw3-2.fna&oh=00_AfCaBIr9HuYlMimpRqJATmiXBGCtCNDfaiWLFEzxrW1Nlg&oe=6478F930",
+      firstURL: g2p1,
+      secondURL: g2p2,
+      thirdURL: g2p3,
       content: "Szeregowiec który po kilkudziesięciu latach osiadł w gruncie razem z kanalizacją, częściowo wykonaną z kamionki i żeliwa. Spadek w niewłaściwym kierunki wynosił aż 5.5 %. Podjęte działania polegały na całkowitej przebudowie i wymianie rur na zgodne ze sztuką."
     },
     {
       id: nanoid(),
-      firstURL: "https://scontent.fwaw3-1.fna.fbcdn.net/v/t39.30808-6/322538581_1223319775271266_81388027720042951_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=Qft8Aen546EAX98v99N&_nc_ht=scontent.fwaw3-1.fna&oh=00_AfBMpMc2kt0jlSJ_-GTeNdSEFTlPsXIB6axYqj1xptibFQ&oe=64776CDF",
-      secondURL: "https://scontent.fwaw3-2.fna.fbcdn.net/v/t39.30808-6/323452124_1629141414167638_7652209298330298294_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=-PZh0FdQ7EkAX-hh5hl&_nc_ht=scontent.fwaw3-2.fna&oh=00_AfBsjmhQAyMXmQg4_apV2m5ysaMfzSh0J058X124gXqMcg&oe=64789A42",
-      thirdURL: "https://scontent.fwaw3-1.fna.fbcdn.net/v/t39.30808-6/306914064_519980106793908_8105107826025051042_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=3d3T3zQoyqAAX9FnC37&_nc_ht=scontent.fwaw3-1.fna&oh=00_AfCWctIcAvbep_Mmd2CeZLGx699OrRHx44JUDytksV2UMQ&oe=6478596A",
+      firstURL: g3p1,
+      secondURL: g3p2,
+      thirdURL: g3p3,
       content: "Wykopy pod ławy fundamentowe."
     },
     {
