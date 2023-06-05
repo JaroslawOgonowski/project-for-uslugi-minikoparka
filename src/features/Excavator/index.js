@@ -1,6 +1,6 @@
 import { StyledArticle, Title } from "../AboutUs/styled";
-import { Banner, BannerTitle, Details, MainContent, Subtitle } from "./styled";
-
+import { Banner, BannerTitle, Details, MainContent } from "./styled";
+import banner1 from "./banner1.jpg"
 
 export const Excavator = () => {
   return (
@@ -12,7 +12,7 @@ export const Excavator = () => {
         wraz z osprzętem.<br />
       </MainContent>
       <Details>
-        <Banner background={"https://scontent.fwaw3-2.fna.fbcdn.net/v/t39.30808-6/294313103_588769286135407_3963917609240557173_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=bDhs845_QjsAX9A6lEg&_nc_ht=scontent.fwaw3-2.fna&oh=00_AfA4TscUre6lVHXgLYpMSf_5IaVdRfxMDQwukfN2KWRUEQ&oe=6479C72B"}>
+        <Banner background={banner1}>
           <BannerTitle>Minikoparka</BannerTitle>
         </Banner>
         <div>

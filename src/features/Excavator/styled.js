@@ -20,7 +20,7 @@ display: flex;
 align-items: center;
 justify-content: center;
 background-image: url(${(props) => props.background});
-background-position-y: 50%;
+background-position-y: 70%;
 `
 
 export const BannerTitle = styled.span`
