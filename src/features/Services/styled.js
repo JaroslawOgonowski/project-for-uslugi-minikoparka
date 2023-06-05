@@ -1,4 +1,7 @@
 import styled from "styled-components";
+import s1 from "./images/services1.jpg";
+import s2 from "./images/services2.jpg";
+import s3 from "./images/services3.jpg";
 
 export const StyledServices = styled.article`
   width: 100%;
@@ -72,7 +75,7 @@ export const Image = styled.div`
   width: 35%;
   aspect-ratio: 3/4;
   border-radius: 5px;
-  background-image: url(https://scontent.fwaw3-2.fna.fbcdn.net/v/t39.30808-6/292727767_584447123234290_8251652518547320897_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=W5tDirZYYO0AX_95Yrd&_nc_ht=scontent.fwaw3-2.fna&oh=00_AfDYDHgTfcgLrx5lJHzOhVvTqIf1jSBRhkiKgVRslMSTKg&oe=64796E4A);
+  background-image: url(${s1});
   background-repeat: no-repeat;
   background-size: cover;
   align-self: center;
@@ -81,13 +84,13 @@ export const Image = styled.div`
   animation-iteration-count: infinite;
   animation-timing-function: linear;
   @keyframes backgroundAnimation {
-    0%, 25%{background-image: url(https://scontent.fwaw3-2.fna.fbcdn.net/v/t39.30808-6/292727767_584447123234290_8251652518547320897_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=W5tDirZYYO0AX_95Yrd&_nc_ht=scontent.fwaw3-2.fna&oh=00_AfDYDHgTfcgLrx5lJHzOhVvTqIf1jSBRhkiKgVRslMSTKg&oe=64796E4A);    
+    0%, 25%{background-image: url(${s1});    
     background-position-x: 50%;}
-    30%, 60%{background-image: url(https://scontent.fwaw3-1.fna.fbcdn.net/v/t39.30808-6/285439172_563044772041192_4171892873498239350_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=jerjjqPEVSwAX-G6Uj8&_nc_ht=scontent.fwaw3-1.fna&oh=00_AfDCiEtHn64ORCWZ43wmJXJzQG51hnBzSlrNi7TVSlo_7A&oe=6479A795);
+    30%, 60%{background-image: url(${s2});
     background-position-x: 30%;}
-    65%, 90% {background-image: url(https://scontent.fwaw3-2.fna.fbcdn.net/v/t39.30808-6/278368691_523633189315684_7803111547568744878_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=cgiTHCD0h9MAX_-PGPX&_nc_ht=scontent.fwaw3-2.fna&oh=00_AfDhTotaE2iJ4eIzBgwsltPuytxvM72IyyUDGnBf7VtI3A&oe=647AC990);
+    65%, 90% {background-image: url(${s3});
     background-position-x: 90%;}
-    95%, 100%{background-image: url(https://scontent.fwaw3-2.fna.fbcdn.net/v/t39.30808-6/292727767_584447123234290_8251652518547320897_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=W5tDirZYYO0AX_95Yrd&_nc_ht=scontent.fwaw3-2.fna&oh=00_AfDYDHgTfcgLrx5lJHzOhVvTqIf1jSBRhkiKgVRslMSTKg&oe=64796E4A);
+    95%, 100%{background-image: url(${s1});
     background-position-x:50%;}   
   }
 
