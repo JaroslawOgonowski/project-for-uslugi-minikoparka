@@ -26,4 +26,8 @@ export const Content = styled.div`
 margin: 0 16px ;
 max-width: 95%;
 text-align: center;
+
+@media (min-width: 1700px) {
+    font-size: 1.3vw;
+  }
 `

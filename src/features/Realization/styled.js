@@ -68,6 +68,10 @@ export const GalleryImageContainer = styled.div`
     margin: 0;
   width: 100%;
   }
+
+  @media (min-width: 1700px) {
+    margin: 0.5vw 1vw 1vw 1vw;
+  }
 `;
 
 export const GalleryImage = styled.div`
@@ -106,5 +110,10 @@ export const GalleryDescription = styled.p`
 
   @media (max-width: 768px) {
     text-align: center;
+  }
+
+  @media (min-width: 1700px) {
+    font-size: 1.4vw;
+    margin: 1vw 1vw;
   }
 `;
