@@ -25,6 +25,13 @@ export const BurgerButton = styled.button`
     -moz-box-shadow: 0px 0px 6px 2px rgba(202, 192, 192, 1);
     box-shadow: 0px 0px 6px 2px rgba(202, 192, 192, 1);
   }
+
+  @media (min-width: 1700px) {
+    top: 0.5vw;
+    left: 0.5vw;
+    width: 2.8vw;
+    height: 2.8vw;
+  }
 `;
 
 export const BurgerDiv = styled.div`
@@ -44,6 +51,10 @@ export const BurgerDiv = styled.div`
   &:focus {
     outline: none;
   }
+
+  @media (min-width: 1700px) {
+    gap: 0.3vw;
+  }
   `;
 
 export const BurgerSpan = styled.span`
@@ -55,17 +66,33 @@ export const BurgerSpan = styled.span`
 
   
   :first-child {
-    transform: ${({ open }) => open ? 'translateY(10px) rotate(-45deg);' : 'rotate(0)'}
-    }
+    transform: ${({ open }) => open ? 'translateY(10px) rotate(-45deg);' : 'rotate(0)'};
+    
+    @media (min-width: 1700px) {
+      transform: ${({ open }) => open ? 'translateY(0.6vw) rotate(-45deg);' : 'rotate(0)'};
+    }  
+  }
 
   :nth-child(2) {
     opacity: ${({ open }) => open ? '0' : '1'};
     transform: ${({ open }) => open ? 'translateX(20px)' : 'translateX(0)'};
+
+    @media (min-width: 1700px) {
+      transform: ${({ open }) => open ? 'translateY(1vw) rotate(-45deg);' : 'rotate(0)'};
+    } 
     }
 
   :nth-child(3) {
     transform: ${({ open }) => open ? 'translateY(-10px) rotate(45deg)' : 'rotate(0)'};
-    }
+    
+    @media (min-width: 1700px) {
+      transform: ${({ open }) => open ? 'translateY(-0.5vw) rotate(45deg);' : 'rotate(0)'};
+    } 
+  }
+
+    @media (min-width: 1700px) {
+      height: 0.3vw;
+  }
 `;
 
 export const NavList = styled.nav`
@@ -91,6 +118,21 @@ export const NavList = styled.nav`
   width: 100%;
   transform: ${({ open }) => open ? `translateX(0)` : `translateX(-100%); `}
   }
+
+  @media (min-width: 1700px) {
+    width: 17vw;
+    height: 30vw;
+    gap: 0.1vw;
+    padding-top: 3.8vw;
+    margin-top: -20%;
+    transform: ${({ open }) => open ? `translateX(0)` : `translateX(-200vw);    height:0; 
+    width:0;`};
+  }
+
+  @media (min-width: 2200px) {
+    margin-top: -18%;
+  }
+
 `;
 
 export const StyledLink = styled(Link)`
@@ -114,6 +156,11 @@ export const Item = styled.li`
   @media (max-width: 767px) {
   text-align: center;
   };
+
+  @media (min-width: 1700px) {
+    font-size: 1.8vw;
+    padding: 1vw 0;
+  }
 `;
 
 export const Label = styled.div`
