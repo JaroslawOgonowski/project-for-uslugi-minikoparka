@@ -10,6 +10,12 @@ export const Location = () => {
         Jesteśmy również otwarci na zapytania spoza wyznaczonego obszaru- według ustaleń indywidualnych.
       </Content>
       <Map />
+      <Content>
+        Najczęściej działamy w miejscowościach:<br/>
+        <strong>Żyradów | Wiskitki | Jaktorów | Mszczonów | Korytów | Międzyborów | Radziejowice | Słabomierz <br/>
+        Henryszew | Stare Kozłowice | Cyganka | Działki | Guzów | Oryszew | Aleksandrów | Łubno | Tomaszew <br/>
+        Izdebno | Kaski | Szymanów | Jesionka | Mrozy | Franciszków | Waleriany | Studzieniec | Puszcza Mariańska</strong>
+      </Content>
     </StyledLocation>
   );
 };
