@@ -9,6 +9,10 @@ export const Title = styled.h2`
   @media (max-width: 767px){
     margin: 16px 0;
   }
+
+  @media (min-width: 1700px) {
+    font-size: 3vw;
+  }
 `
 
 export const StyledContact = styled.div`
@@ -51,6 +55,10 @@ export const StyledForm = styled.form`
 export const Label = styled.label`
   font-size: 16px;
   margin: 8px 0;
+
+  @media (min-width: 1700px) {
+    font-size: 1.6vw;
+  }
 `;
 
 export const Input = styled.input`
@@ -58,6 +66,10 @@ export const Input = styled.input`
   font-size: 16px;
   padding: 8px;
   border-radius: 5px;
+
+  @media (min-width: 1700px) {
+    font-size: 1.6vw;
+  }
 `
 export const TextArea = styled.textarea`
   width: 100%;
@@ -68,6 +80,11 @@ export const TextArea = styled.textarea`
   resize: none;
   box-sizing: border-box;
   border-radius: 5px;
+
+  @media (min-width: 1700px) {
+    height: 10vw;
+    font-size: 1.6vw;
+  }
 `
 export const Button = styled.input`
   cursor: pointer;
@@ -83,5 +100,11 @@ export const Button = styled.input`
   &:hover{
     background-color: #dea301ff;
     font-weight: 800;
+  }
+
+  @media (min-width: 1700px) {
+    margin-top: 1vw;
+  padding: 1vw;
+  font-size: 2vw;
   }
 `
