@@ -6,7 +6,7 @@ export const Location = () => {
   return (
     <StyledLocation>
       <Title>Nasz zakres działalności</Title>
-      <Content>Działamy intensywnie w promieniu 20km od żyrardowa- standardowy zakres widoczny na mapie niżej  🔽<br />
+      <Content>Działamy intensywnie w promieniu 20km od Żyrardowa- standardowy zakres widoczny na mapie niżej  🔽<br />
         Jesteśmy również otwarci na zapytania spoza wyznaczonego obszaru- według ustaleń indywidualnych.
       </Content>
       <Map />
