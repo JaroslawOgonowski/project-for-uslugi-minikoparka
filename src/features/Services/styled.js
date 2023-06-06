@@ -26,15 +26,23 @@ export const StyledServices = styled.article`
     max-width: 90%;
     margin: 0 auto;
   }
+
+  @media (min-width: 1700px) {
+    margin: 0 0.2vw;
+  }
 `
 export const Box = styled.div`
   width: 100%;
   display: flex;
   gap: 5vw;
 
-  @media (max-width: 1000px) {
+  @media (max-width: 1150px) {
     flex-direction: column-reverse;
     gap: 32px;
+  }
+
+  @media (min-width: 1700px) {
+    gap: 0.2vw;
   }
 `
 
@@ -45,6 +53,10 @@ export const Title = styled.h2`
 
   @media (max-width: 767px) {
     font-size: 22px;
+  }
+
+  @media (min-width: 1700px) {
+    font-size: 3vw;
   }
 `
 export const ServicesList = styled.ul`
@@ -69,6 +81,10 @@ export const ServicesDetailsList = styled.ul`
 
 export const MainItem = styled.li`
   margin-bottom: 16px;
+  
+  @media (min-width: 1700px) {
+    font-size: 1.3vw;
+  }
 `
 
 export const Image = styled.div`
@@ -94,9 +110,13 @@ export const Image = styled.div`
     background-position-x:50%;}   
   }
 
-  @media (max-width: 1000px) {
+  @media (max-width: 1150px) {
     width: 100%;
     height: 150px;
     background-position-y:50%;
+  }
+
+  @media (min-width: 1700px) {
+    margin-left: 3vw;
   }
 `
