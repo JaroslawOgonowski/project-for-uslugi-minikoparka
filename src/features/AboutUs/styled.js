@@ -19,7 +19,7 @@ export const StyledArticle = styled.article`
   width: calc(100%-32px);
   display: flex;
   flex-direction: column;
-  margin: 0 16px;
+  margin: 0 2vw;
   animation: articleAnimation 2s ease normal forwards;
   font-size: 1.5vw;
   @keyframes articleAnimation {
