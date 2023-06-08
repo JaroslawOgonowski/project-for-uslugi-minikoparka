@@ -23,16 +23,20 @@ export const StyledArticle = styled.article`
   animation: articleAnimation 2s ease normal forwards;
   font-size: 1.5vw;
   @keyframes articleAnimation {
-	0% {
-		opacity: 0;
-		transform: translateX(250px);
-	}
+	  0% {
+		  opacity: 0;
+		  transform: translateX(250px);
+	  }
 
-	100% {
-		opacity: 1;
-		transform: translateX(0);
-	}
-}
+	  100% {
+		  opacity: 1;
+		  transform: translateX(0);
+	  }
+  }
+
+  @media (max-width: 767px) {
+    font-size: 18px;
+  }
 `
 
 export const Title = styled.h2`
@@ -49,6 +53,10 @@ export const Title = styled.h2`
 `
 export const Subtitle = styled.h3`
 font-size: 2vw;
+
+  @media (max-width: 767px) {
+    font-size: 20px;
+  }
 `
 
 export const Content = styled.div`
