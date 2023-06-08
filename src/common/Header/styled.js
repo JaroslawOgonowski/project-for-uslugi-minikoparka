@@ -137,6 +137,10 @@ export const SpanBlackText = styled.span`
   @media (min-width: 1700px) {
     font-size: 2vw;
   }
+
+  @media (max-width: 767px) {
+    font-size: 36px;
+  }
 `;
 
 export const SpanOrangeText = styled.span`
