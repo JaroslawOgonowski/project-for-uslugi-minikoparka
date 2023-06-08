@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/project-for-uslugi-minikoparka/static/css/main.582bcdb5.css",
-    "main.js": "/project-for-uslugi-minikoparka/static/js/main.0275309c.js",
+    "main.js": "/project-for-uslugi-minikoparka/static/js/main.e1c4da25.js",
     "static/js/787.07473dc0.chunk.js": "/project-for-uslugi-minikoparka/static/js/787.07473dc0.chunk.js",
     "static/media/g1p2.jpg": "/project-for-uslugi-minikoparka/static/media/g1p2.c46d1c607e59ad1775cd.jpg",
     "static/media/g7p2.jpg": "/project-for-uslugi-minikoparka/static/media/g7p2.9c9fb98d338fcb4e476d.jpg",
@@ -41,11 +41,11 @@
     "static/media/email-svgrepo-com.svg": "/project-for-uslugi-minikoparka/static/media/email-svgrepo-com.0a602da8dc66e9a7607e396b26da2db6.svg",
     "static/media/Facebook_black.svg": "/project-for-uslugi-minikoparka/static/media/Facebook_black.4fcd2e5a629788c48eff881bf1586f1a.svg",
     "main.582bcdb5.css.map": "/project-for-uslugi-minikoparka/static/css/main.582bcdb5.css.map",
-    "main.0275309c.js.map": "/project-for-uslugi-minikoparka/static/js/main.0275309c.js.map",
+    "main.e1c4da25.js.map": "/project-for-uslugi-minikoparka/static/js/main.e1c4da25.js.map",
     "787.07473dc0.chunk.js.map": "/project-for-uslugi-minikoparka/static/js/787.07473dc0.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.582bcdb5.css",
-    "static/js/main.0275309c.js"
+    "static/js/main.e1c4da25.js"
   ]
 }
