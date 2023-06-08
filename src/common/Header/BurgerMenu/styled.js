@@ -116,7 +116,7 @@ export const NavList = styled.nav`
 
   @media (max-width: 767px) {
   width: 100%;
-  transform: ${({ open }) => open ? `translateX(0)` : `translateX(-100%); `}
+  transform: ${({ open }) => open ? `translateX(0)` : `translateX(-10000px); `}
   }
 
   @media (min-width: 1700px) {
